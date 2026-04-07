@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 264,
+    "build": 265,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -1033,6 +1033,7 @@
       "assetStoreId": "",
       "name": "Personagem",
       "persistentUuid": "8fb52637-9527-44bb-9f10-8cdcf77c87e5",
+      "preScale": 2,
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4315,10 +4316,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -20148,9 +20149,12 @@
           "defaultName": "GameOverDialog",
           "description": "Display the score and let players choose what to do next.",
           "fullName": "Game over dialog",
+          "helpPath": "",
+          "iconUrl": "",
           "isInnerAreaFollowingParentSize": true,
           "isUsingLegacyInstancesRenderer": false,
           "name": "LeaderboardDialog",
+          "previewIconUrl": "",
           "objects": [
             {
               "assetStoreId": "",
@@ -23210,8 +23214,11 @@
         {
           "description": "The finite state machine used internally by the button object.",
           "fullName": "Button finite state machine",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "ButtonFSM",
           "objectType": "",
+          "previewIconUrl": "",
           "private": true,
           "eventsFunctions": [
             {
@@ -24435,8 +24442,11 @@
         {
           "description": "Change the text style when the button is hovered.",
           "fullName": "Hover text style",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "TextStyleState",
           "objectType": "TextObject::Text",
+          "previewIconUrl": "",
           "private": true,
           "eventsFunctions": [
             {
@@ -24961,8 +24971,11 @@
         {
           "description": "Change the text style when the button is hovered.",
           "fullName": "Hover bitmap text style",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "BitmapTextStyleState",
           "objectType": "BitmapText::BitmapTextObject",
+          "previewIconUrl": "",
           "private": true,
           "eventsFunctions": [
             {
@@ -25420,9 +25433,12 @@
           "defaultName": "Button",
           "description": "Button with a label.",
           "fullName": "Labeled button",
+          "helpPath": "",
+          "iconUrl": "",
           "isInnerAreaFollowingParentSize": true,
           "isUsingLegacyInstancesRenderer": false,
           "name": "PanelSpriteButton",
+          "previewIconUrl": "",
           "objects": [
             {
               "assetStoreId": "",
@@ -27841,8 +27857,11 @@
         {
           "description": "Tween objects into position from off screen.",
           "fullName": "Tween into view",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "TweenIntoView",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
