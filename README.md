@@ -16,11 +16,11 @@ Em um mundo que antes vivia em equilíbrio com a natureza, a poluição começou
 
 Sem a proteção do cristal, a natureza perdeu sua estabilidade. Criaturas que antes coexistiam em paz com o ambiente passaram a agir de forma hostil, transformadas pela contaminação e pela ausência da energia sagrada. Além disso, os caminhos naturais foram afetados pela degradação, fazendo surgir perigos e obstáculos ao longo da jornada, como áreas instáveis, espinhos e passagens bloqueadas.
 
-Diante desse cenário, o protagonista parte em uma missão para recuperar os fragmentos do Cristal da Vida e devolvê-los à natureza. Durante a aventura, ele coleta pequenas porções dessa energia espalhadas pelo mundo, representadas pelas moedas encontradas ao longo das fases, enquanto as maçãs simbolizam a força regeneradora da própria natureza, ajudando-o a continuar sua missão.
+Diante desse cenário, o protagonista parte em uma missão para recuperar os fragmentos do Cristal da Vida e devolvê-los à natureza. Durante a aventura, ele deve atravessar regiões tomadas pela poluição e reativar antigos mecanismos esquecidos, como alavancas que liberam plataformas e restabelecem a passagem por áreas bloqueadas.
 
-Para avançar por regiões tomadas pela poluição, o jogador também deverá reativar antigos mecanismos esquecidos, como alavancas que liberam plataformas e restabelecem a passagem por áreas bloqueadas. Ao final de cada fase, uma porta marca a travessia para uma nova região do mundo corrompido, simbolizando o avanço do herói em direção à restauração do equilíbrio natural.
+Nesta jornada, o herói encontra dois tipos de itens fundamentais: as maçãs, que simbolizam a força regeneradora da própria natureza e ajudam a restaurar sua vitalidade, e as moedas, que representam tesouros perdidos nas áreas corrompidas. Diferente da energia vital, as moedas servem como um registro das conquistas do herói, sendo acumuladas para compor sua pontuação final ao concluir o objetivo de salvar o mundo.
 
-Assim, cada desafio superado representa mais do que a conclusão de uma fase: representa um passo na reconstrução do Cristal da Vida e na esperança de devolver ao mundo a energia que a poluição quase destruiu por completo.
+O momento de maior importância ocorre ao final de cada região. Antes de atravessar a porta que leva ao próximo desafio, o herói deve coletar uma porção concentrada da energia do Cristal. Esse ato simboliza a purificação daquela área e garante ao protagonista a força necessária para avançar. Assim, cada fase superada representa um passo crucial na reconstrução do Cristal da Vida e na esperança de devolver ao mundo a pureza que a poluição quase destruiu por completo.
 
 ## 3. Mecânicas Principais
 
