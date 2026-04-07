@@ -4078,7 +4078,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.599573838911108,
+        "zoomFactor": 0.4753585087126933,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -7499,6 +7499,41 @@
                   },
                   "parameters": [
                     "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Personagem",
+                    "Flippable",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateLeftKey"
+                  },
+                  "parameters": [
+                    "Personagem",
+                    "PlatformerObject"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
                     "\"d\""
                   ]
                 }
@@ -7534,7 +7569,130 @@
                   },
                   "parameters": [
                     "",
+                    "\"Right\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Personagem",
+                    "Flippable",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateRightKey"
+                  },
+                  "parameters": [
+                    "Personagem",
+                    "PlatformerObject"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
                     "\"w\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Personagem",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateJumpKey"
+                  },
+                  "parameters": [
+                    "Personagem",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PuloDuplo",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Up\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Personagem",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateJumpKey"
+                  },
+                  "parameters": [
+                    "Personagem",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PuloDuplo",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Space\""
                   ]
                 },
                 {
@@ -7637,6 +7795,144 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Up\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsJumping"
+                  },
+                  "parameters": [
+                    "Personagem",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "PuloDuplo",
+                    "<",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SetCanJump"
+                  },
+                  "parameters": [
+                    "Personagem",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateJumpKey"
+                  },
+                  "parameters": [
+                    "Personagem",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PuloDuplo",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Space\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsJumping"
+                  },
+                  "parameters": [
+                    "Personagem",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "PuloDuplo",
+                    "<",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SetCanJump"
+                  },
+                  "parameters": [
+                    "Personagem",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateJumpKey"
+                  },
+                  "parameters": [
+                    "Personagem",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PuloDuplo",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -7669,8 +7965,14 @@
                   "parameters": [
                     "PuloDuplo",
                     "=",
-                    "1"
+                    "2"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -7697,6 +7999,16 @@
                   "parameters": [
                     "Personagem",
                     "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "PuloDuplo",
+                    "=",
+                    "1"
                   ]
                 }
               ],
