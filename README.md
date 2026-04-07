@@ -153,7 +153,17 @@ A distribuição proposta busca equilíbrio entre diferentes estilos de jogo:
 
 Com isso, o sistema evita privilegiar apenas um único fator e incentiva uma experiência mais completa dentro da proposta do jogo.
 
-## 6. Autores
+## 6. Ambientação das Fases
+
+As fases do jogo foram planejadas para representar a progressão da degradação causada pela poluição no mundo do Cristal da Vida.
+
+- **Fase 1 – Floresta em Desequilíbrio:** apresenta uma região natural ainda parcialmente preservada, mas já marcada por sinais de contaminação, como vegetação enfraquecida, céu acinzentado e pequenas áreas degradadas.
+
+- **Fase 2 – Ruínas da Natureza Corrompida:** mostra uma área mais afetada pela poluição, com árvores secas, rios contaminados, estruturas antigas degradadas e atmosfera mais sombria, reforçando o aumento da dificuldade e do perigo.
+
+- **Fase 3 – Núcleo da Poluição:** representa o estágio mais crítico da destruição ambiental, com cenário devastado, céu escuro, solo corrompido e poucos vestígios de vida, simbolizando o confronto final contra o colapso da natureza.
+
+## 7. Autores
 
 | Nome | Matrícula | GitHub |
 |---|---|---|
