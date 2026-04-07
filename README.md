@@ -12,6 +12,16 @@ Este repositório reúne os arquivos do jogo, sua documentação e informações
 
 ## 2. Hitória
 
+Em um mundo que antes vivia em equilíbrio com a natureza, a poluição começou a se espalhar por florestas, rios e montanhas, consumindo a energia vital que mantinha todas as formas de vida em harmonia. Com o avanço dessa destruição, o **Cristal da Vida**, uma relíquia sagrada responsável por sustentar o equilíbrio natural do mundo, foi rompido, espalhando seus fragmentos por diferentes regiões agora corrompidas.
+
+Sem a proteção do cristal, a natureza perdeu sua estabilidade. Criaturas que antes coexistiam em paz com o ambiente passaram a agir de forma hostil, transformadas pela contaminação e pela ausência da energia sagrada. Além disso, os caminhos naturais foram afetados pela degradação, fazendo surgir perigos e obstáculos ao longo da jornada, como áreas instáveis, espinhos e passagens bloqueadas.
+
+Diante desse cenário, o protagonista parte em uma missão para recuperar os fragmentos do Cristal da Vida e devolvê-los à natureza. Durante a aventura, ele coleta pequenas porções dessa energia espalhadas pelo mundo, representadas pelas moedas encontradas ao longo das fases, enquanto as maçãs simbolizam a força regeneradora da própria natureza, ajudando-o a continuar sua missão.
+
+Para avançar por regiões tomadas pela poluição, o jogador também deverá reativar antigos mecanismos esquecidos, como alavancas que liberam plataformas e restabelecem a passagem por áreas bloqueadas. Ao final de cada fase, uma porta marca a travessia para uma nova região do mundo corrompido, simbolizando o avanço do herói em direção à restauração do equilíbrio natural.
+
+Assim, cada desafio superado representa mais do que a conclusão de uma fase: representa um passo na reconstrução do Cristal da Vida e na esperança de devolver ao mundo a energia que a poluição quase destruiu por completo.
+
 ## 3. Mecânicas Principais
 
 O jogo foi desenvolvido no gênero plataforma e incorpora mecânicas centrais voltadas à movimentação, sobrevivência, progressão por fases e sistema de pontuação. A proposta busca aplicar os conceitos trabalhados ao longo da disciplina, estruturando a experiência de forma progressiva entre uma fase inicial de tutorial e três fases principais.
