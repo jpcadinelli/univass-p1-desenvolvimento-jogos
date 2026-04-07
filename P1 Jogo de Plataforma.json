@@ -4913,7 +4913,7 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
+          "isLocked": true,
           "name": "",
           "renderingType": "",
           "visibility": true,
