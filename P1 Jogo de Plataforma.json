@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 262,
+    "build": 265,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -16,7 +16,7 @@
     "pixelsRounding": false,
     "projectUuid": "e122d5d2-8aaa-4109-a76c-2aff8085dc0a",
     "scaleMode": "linear",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "templateSlug": "",
     "version": "0.1.0",
     "name": "P1 - Jogo de Plataforma",
@@ -85,7 +85,6 @@
     ],
     "categories": [],
     "playableDevices": [
-      "mobile",
       "mobile"
     ],
     "extensionProperties": [],
@@ -1119,6 +1118,118 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/7423149de6e486ac885567761bef3236bcdb8414d05cb0920ae7aedffdec85f9_mononoki-Regular.ttf",
           "name": "mononoki-Regular.ttf"
         }
+      },
+      {
+        "file": "—Pngtree—keyboard keys vector_9102006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "—Pngtree—keyboard keys vector_9102006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "_Pngtree_keyboard_keys_vector_9102006-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "_Pngtree_keyboard_keys_vector_9102006-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "download.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "download.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "download (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "download (1).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "download (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "download (2).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "download (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "download (3).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "download (4).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "download (4).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "download (4)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "download (4)2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "download (5).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "download (5).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "download2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "download2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "download (1)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "download (1)2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "download (2)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "download (2)2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "download (3)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "download (3)2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "download (4)3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "download (4)3.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -3149,7 +3260,7 @@
       "name": "Voltar",
       "persistentUuid": "4682c6fd-eb9f-44af-b4d7-937b5ef3c7e4",
       "type": "PanelSpriteButton::PanelSpriteButton",
-      "variant": "Small Blue Button",
+      "variant": "White Square Decorated Button",
       "variables": [],
       "effects": [],
       "behaviors": [],
@@ -4945,7 +5056,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5079575118131742,
+        "zoomFactor": 0.49138775453293637,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -15635,9 +15746,176 @@
           "name": "Voltar",
           "persistentUuid": "77f3c7ab-6b4c-445f-97f8-ae51bc3fdf9b",
           "width": 0,
-          "x": 1728,
-          "y": 32,
+          "x": 1664,
+          "y": 64,
           "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tecla_W",
+          "persistentUuid": "6fad343d-d37b-4276-8842-aac2bd2ae374",
+          "width": 128,
+          "x": 128,
+          "y": 32,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 102,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tecla_A",
+          "persistentUuid": "f1d0d560-2276-4043-8a05-0127cf6c5f8b",
+          "width": 128,
+          "x": 128,
+          "y": 160,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 102,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tecla_Seta_Esquerda",
+          "persistentUuid": "38797e1c-9be5-4758-bbbf-b62f92cbded7",
+          "width": 128,
+          "x": 320,
+          "y": 160,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 102,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tecla_Seta_Cima",
+          "persistentUuid": "ed5f32fe-98e9-419e-b377-dfdf668d1d07",
+          "width": 128,
+          "x": 320,
+          "y": 26,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 102,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tecla_Seta_Direita",
+          "persistentUuid": "273fca2f-76c5-4e0d-bbbe-96b6d15d9737",
+          "width": 128,
+          "x": 320,
+          "y": 288,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 6,
+          "height": 160,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tecla_Espaco",
+          "persistentUuid": "930c15e5-08a0-4074-877d-719ead0139cc",
+          "width": 293,
+          "x": 475,
+          "y": 0,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 102,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tecla_D",
+          "persistentUuid": "e4debddf-c911-41fc-bfc4-f85250131fa0",
+          "width": 128,
+          "x": 128,
+          "y": 288,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Titulo_Pulo",
+          "persistentUuid": "cbc3fad1-5ddf-4799-8849-be6c1ae463cf",
+          "width": 0,
+          "x": 768,
+          "y": 62,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Titulo_Esquerda",
+          "persistentUuid": "7463d8fa-eb8f-49eb-b4ba-2e4aca6178f2",
+          "width": 0,
+          "x": 476,
+          "y": 192,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Titulo_Direita",
+          "persistentUuid": "f06ed429-689c-4c1e-87f1-89ae919a5e06",
+          "width": 0,
+          "x": 474,
+          "y": 320,
+          "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -15660,6 +15938,178 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "Tecla_A",
+          "rightMargin": 0,
+          "texture": "download (4).png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "Tecla_W",
+          "rightMargin": 0,
+          "texture": "download (5).png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "Tecla_Seta_Esquerda",
+          "rightMargin": 0,
+          "texture": "download2.png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "Tecla_Seta_Cima",
+          "rightMargin": 0,
+          "texture": "download (1)2.png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "Tecla_Seta_Direita",
+          "rightMargin": 0,
+          "texture": "download (2)2.png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "Tecla_Espaco",
+          "rightMargin": 0,
+          "texture": "download (3)2.png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "Tecla_D",
+          "rightMargin": 0,
+          "texture": "download (4)3.png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "54d86c7d46104e19c9a7e86e173b71bce9592b476e156846c53f11be91039afd",
+          "name": "Titulo_Pulo",
+          "persistentUuid": "ff971b35-3e18-4829-a0b9-8c41437c5969",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Pulo/Pulo Duplo",
+            "opacity": 255,
+            "scale": 6,
+            "fontSize": 20,
+            "tint": "0;0;0",
+            "bitmapFontResourceName": "assets/NotJamOldStyle11.fnt",
+            "textureAtlasResourceName": "assets/NotJamOldStyle11.png",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "54d86c7d46104e19c9a7e86e173b71bce9592b476e156846c53f11be91039afd",
+          "name": "Titulo_Esquerda",
+          "persistentUuid": "696ab471-cdb2-4b53-9a67-991881a71d32",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Esquerda",
+            "opacity": 255,
+            "scale": 6,
+            "fontSize": 20,
+            "tint": "0;0;0",
+            "bitmapFontResourceName": "assets/NotJamOldStyle11.fnt",
+            "textureAtlasResourceName": "assets/NotJamOldStyle11.png",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "54d86c7d46104e19c9a7e86e173b71bce9592b476e156846c53f11be91039afd",
+          "name": "Titulo_Direita",
+          "persistentUuid": "4ec15033-43b4-4b99-a101-132a9e23149d",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Direita",
+            "opacity": 255,
+            "scale": 6,
+            "fontSize": 20,
+            "tint": "0;0;0",
+            "bitmapFontResourceName": "assets/NotJamOldStyle11.fnt",
+            "textureAtlasResourceName": "assets/NotJamOldStyle11.png",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -15667,6 +16117,36 @@
         "children": [
           {
             "objectName": "Background2"
+          },
+          {
+            "objectName": "Tecla_A"
+          },
+          {
+            "objectName": "Tecla_W"
+          },
+          {
+            "objectName": "Tecla_Seta_Esquerda"
+          },
+          {
+            "objectName": "Tecla_Seta_Cima"
+          },
+          {
+            "objectName": "Tecla_Seta_Direita"
+          },
+          {
+            "objectName": "Tecla_Espaco"
+          },
+          {
+            "objectName": "Tecla_D"
+          },
+          {
+            "objectName": "Titulo_Pulo"
+          },
+          {
+            "objectName": "Titulo_Esquerda"
+          },
+          {
+            "objectName": "Titulo_Direita"
           }
         ]
       },
@@ -15865,6 +16345,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     },
@@ -20317,9 +20801,12 @@
           "defaultName": "GameOverDialog",
           "description": "Display the score and let players choose what to do next.",
           "fullName": "Game over dialog",
+          "helpPath": "",
+          "iconUrl": "",
           "isInnerAreaFollowingParentSize": true,
           "isUsingLegacyInstancesRenderer": false,
           "name": "LeaderboardDialog",
+          "previewIconUrl": "",
           "objects": [
             {
               "assetStoreId": "",
@@ -23379,8 +23866,11 @@
         {
           "description": "The finite state machine used internally by the button object.",
           "fullName": "Button finite state machine",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "ButtonFSM",
           "objectType": "",
+          "previewIconUrl": "",
           "private": true,
           "eventsFunctions": [
             {
@@ -24604,8 +25094,11 @@
         {
           "description": "Change the text style when the button is hovered.",
           "fullName": "Hover text style",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "TextStyleState",
           "objectType": "TextObject::Text",
+          "previewIconUrl": "",
           "private": true,
           "eventsFunctions": [
             {
@@ -25130,8 +25623,11 @@
         {
           "description": "Change the text style when the button is hovered.",
           "fullName": "Hover bitmap text style",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "BitmapTextStyleState",
           "objectType": "BitmapText::BitmapTextObject",
+          "previewIconUrl": "",
           "private": true,
           "eventsFunctions": [
             {
@@ -25589,9 +26085,12 @@
           "defaultName": "Button",
           "description": "Button with a label.",
           "fullName": "Labeled button",
+          "helpPath": "",
+          "iconUrl": "",
           "isInnerAreaFollowingParentSize": true,
           "isUsingLegacyInstancesRenderer": false,
           "name": "PanelSpriteButton",
+          "previewIconUrl": "",
           "objects": [
             {
               "assetStoreId": "",
@@ -28675,8 +29174,11 @@
         {
           "description": "Tween objects into position from off screen.",
           "fullName": "Tween into view",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "TweenIntoView",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -30934,10 +31436,13 @@
           "defaultName": "",
           "description": "A dialog box showing two options.",
           "fullName": "Two choices dialog box ",
+          "helpPath": "",
+          "iconUrl": "",
           "isInnerAreaFollowingParentSize": true,
           "isTextContainer": true,
           "isUsingLegacyInstancesRenderer": false,
           "name": "TwoChoicesDialogBox",
+          "previewIconUrl": "",
           "objects": [
             {
               "assetStoreId": "90d94b6e3a23c34948e59eaaef4679740f8ab588696d59b21e0c0c2ef106b94d",
@@ -34961,8 +35466,11 @@
         {
           "description": "Control a platformer character with a gamepad.",
           "fullName": "Platformer gamepad mapper",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "PlatformerGamepadMapper",
           "objectType": "",
+          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -35566,8 +36074,11 @@
         {
           "description": "Control a 3D physics character with a gamepad.",
           "fullName": "3D platformer gamepad mapper",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "Platformer3DGamepadMapper",
           "objectType": "",
+          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -35790,8 +36301,11 @@
         {
           "description": "Control a 3D physics character with a gamepad.",
           "fullName": "3D shooter gamepad mapper",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "Shooter3DGamepadMapper",
           "objectType": "",
+          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -36023,8 +36537,11 @@
         {
           "description": "Control camera rotations with a gamepad.",
           "fullName": "First person camera gamepad mapper",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "FirstPersonGamepadMapper",
           "objectType": "",
+          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -37219,8 +37736,11 @@
         {
           "description": "Control a 3D physics car with a gamepad.",
           "fullName": "3D car gamepad mapper",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "PhysicsCar3DGamepadMapper",
           "objectType": "",
+          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -37624,8 +38144,11 @@
         {
           "description": "Control a top-down character with a gamepad.",
           "fullName": "Top-down gamepad mapper",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "TopDownGamepadMapper",
           "objectType": "",
+          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
