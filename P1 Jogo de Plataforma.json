@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 265,
+    "build": 262,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -85,6 +85,7 @@
     ],
     "categories": [],
     "playableDevices": [
+      "mobile",
       "mobile"
     ],
     "extensionProperties": [],
@@ -1743,6 +1744,74 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/BarroDireito.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hessonite Gemstone.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Hessonite Gemstone.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art RPG Items/Collectable items/2a65b37984bd4695580c5027c58a217609e4835281364faf453e3d86fb3d4f53_Hessonite Gemstone.png",
+          "name": "Hessonite Gemstone.png"
+        }
+      },
+      {
+        "file": "assets/Hessonite Gemstone2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hessonite Gemstone",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/d_sprite_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\d_sprite_0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/d_sprite_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\d_sprite_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/d_sprite_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\d_sprite_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/d_sprite_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\d_sprite_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/d_sprite_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\d_sprite_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/d_sprite_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\d_sprite_5.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -5062,10 +5131,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -5110,6 +5179,934 @@
                       {
                         "x": 0,
                         "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Espinho",
+      "persistentUuid": "b2970968-8bbe-4d46-aa6e-d164483950f2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Spike.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 9
+                      },
+                      {
+                        "x": 15,
+                        "y": 9
+                      },
+                      {
+                        "x": 15,
+                        "y": 16
+                      },
+                      {
+                        "x": 0,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "acebdd0b7065d90ded78ba3f72e89d6ccb75f41fa936dbbff3dcf21c810976d6",
+      "name": "Emerald_Gem",
+      "persistentUuid": "b3155eab-7fce-4c53-8d38-f88b01e9f87a",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Emerald Gem.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 2
+                      },
+                      {
+                        "x": 12,
+                        "y": 2
+                      },
+                      {
+                        "x": 12,
+                        "y": 14
+                      },
+                      {
+                        "x": 4,
+                        "y": 14
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Coleta",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\d_sprite_0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 2
+                      },
+                      {
+                        "x": 12,
+                        "y": 2
+                      },
+                      {
+                        "x": 12,
+                        "y": 14
+                      },
+                      {
+                        "x": 4,
+                        "y": 14
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\d_sprite_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 2
+                      },
+                      {
+                        "x": 12,
+                        "y": 2
+                      },
+                      {
+                        "x": 12,
+                        "y": 14
+                      },
+                      {
+                        "x": 4,
+                        "y": 14
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\d_sprite_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 2
+                      },
+                      {
+                        "x": 12,
+                        "y": 2
+                      },
+                      {
+                        "x": 12,
+                        "y": 14
+                      },
+                      {
+                        "x": 4,
+                        "y": 14
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\d_sprite_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 2
+                      },
+                      {
+                        "x": 12,
+                        "y": 2
+                      },
+                      {
+                        "x": 12,
+                        "y": 14
+                      },
+                      {
+                        "x": 4,
+                        "y": 14
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\d_sprite_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 2
+                      },
+                      {
+                        "x": 12,
+                        "y": 2
+                      },
+                      {
+                        "x": 12,
+                        "y": 14
+                      },
+                      {
+                        "x": 4,
+                        "y": 14
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\d_sprite_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 2
+                      },
+                      {
+                        "x": 12,
+                        "y": 2
+                      },
+                      {
+                        "x": 12,
+                        "y": 14
+                      },
+                      {
+                        "x": 4,
+                        "y": 14
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "bedebc0d7762d5bb9fa23ab21780fe1f08b052747fcb323bd19d898fa2949e68",
+      "name": "Sapphire_Gem",
+      "persistentUuid": "5ccb2e07-f720-4941-9824-dced8c7e9f77",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Sapphire Gem.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 2
+                      },
+                      {
+                        "x": 12,
+                        "y": 2
+                      },
+                      {
+                        "x": 12,
+                        "y": 14
+                      },
+                      {
+                        "x": 4,
+                        "y": 14
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Coleta",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\d_sprite_0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 2
+                      },
+                      {
+                        "x": 12,
+                        "y": 2
+                      },
+                      {
+                        "x": 12,
+                        "y": 14
+                      },
+                      {
+                        "x": 4,
+                        "y": 14
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\d_sprite_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 2
+                      },
+                      {
+                        "x": 12,
+                        "y": 2
+                      },
+                      {
+                        "x": 12,
+                        "y": 14
+                      },
+                      {
+                        "x": 4,
+                        "y": 14
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\d_sprite_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 2
+                      },
+                      {
+                        "x": 12,
+                        "y": 2
+                      },
+                      {
+                        "x": 12,
+                        "y": 14
+                      },
+                      {
+                        "x": 4,
+                        "y": 14
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\d_sprite_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 2
+                      },
+                      {
+                        "x": 12,
+                        "y": 2
+                      },
+                      {
+                        "x": 12,
+                        "y": 14
+                      },
+                      {
+                        "x": 4,
+                        "y": 14
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\d_sprite_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 2
+                      },
+                      {
+                        "x": 12,
+                        "y": 2
+                      },
+                      {
+                        "x": 12,
+                        "y": 14
+                      },
+                      {
+                        "x": 4,
+                        "y": 14
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\d_sprite_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 2
+                      },
+                      {
+                        "x": 12,
+                        "y": 2
+                      },
+                      {
+                        "x": 12,
+                        "y": 14
+                      },
+                      {
+                        "x": 4,
+                        "y": 14
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "5a98c3fb524283afae6e89d1f5627e3fa688048cafb577282c8cd045ed4ad412",
+      "name": "Ruby",
+      "persistentUuid": "90666a44-120a-4c7c-8bd1-431b4e356a5f",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ruby.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 3
+                      },
+                      {
+                        "x": 12,
+                        "y": 3
+                      },
+                      {
+                        "x": 12,
+                        "y": 13
+                      },
+                      {
+                        "x": 4,
+                        "y": 13
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Coleta",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\d_sprite_0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 3
+                      },
+                      {
+                        "x": 12,
+                        "y": 3
+                      },
+                      {
+                        "x": 12,
+                        "y": 13
+                      },
+                      {
+                        "x": 4,
+                        "y": 13
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\d_sprite_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 3
+                      },
+                      {
+                        "x": 12,
+                        "y": 3
+                      },
+                      {
+                        "x": 12,
+                        "y": 13
+                      },
+                      {
+                        "x": 4,
+                        "y": 13
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\d_sprite_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 3
+                      },
+                      {
+                        "x": 12,
+                        "y": 3
+                      },
+                      {
+                        "x": 12,
+                        "y": 13
+                      },
+                      {
+                        "x": 4,
+                        "y": 13
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\d_sprite_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 3
+                      },
+                      {
+                        "x": 12,
+                        "y": 3
+                      },
+                      {
+                        "x": 12,
+                        "y": 13
+                      },
+                      {
+                        "x": 4,
+                        "y": 13
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\d_sprite_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 3
+                      },
+                      {
+                        "x": 12,
+                        "y": 3
+                      },
+                      {
+                        "x": 12,
+                        "y": 13
+                      },
+                      {
+                        "x": 4,
+                        "y": 13
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\d_sprite_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 3
+                      },
+                      {
+                        "x": 12,
+                        "y": 3
+                      },
+                      {
+                        "x": 12,
+                        "y": 13
+                      },
+                      {
+                        "x": 4,
+                        "y": 13
                       }
                     ]
                   ]
@@ -5171,6 +6168,18 @@
       },
       {
         "objectName": "Door"
+      },
+      {
+        "objectName": "Espinho"
+      },
+      {
+        "objectName": "Emerald_Gem"
+      },
+      {
+        "objectName": "Sapphire_Gem"
+      },
+      {
+        "objectName": "Ruby"
       }
     ]
   },
@@ -5220,7 +6229,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.4753585087126931,
+        "zoomFactor": 0.6622955665506386,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -5577,189 +6586,6 @@
         },
         {
           "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "acebdd0b7065d90ded78ba3f72e89d6ccb75f41fa936dbbff3dcf21c810976d6",
-          "name": "Emerald_Gem",
-          "persistentUuid": "b3155eab-7fce-4c53-8d38-f88b01e9f87a",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Emerald Gem.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 2
-                          },
-                          {
-                            "x": 12,
-                            "y": 2
-                          },
-                          {
-                            "x": 12,
-                            "y": 14
-                          },
-                          {
-                            "x": 4,
-                            "y": 14
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "bedebc0d7762d5bb9fa23ab21780fe1f08b052747fcb323bd19d898fa2949e68",
-          "name": "Sapphire_Gem",
-          "persistentUuid": "5ccb2e07-f720-4941-9824-dced8c7e9f77",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Sapphire Gem.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 2
-                          },
-                          {
-                            "x": 12,
-                            "y": 2
-                          },
-                          {
-                            "x": 12,
-                            "y": 14
-                          },
-                          {
-                            "x": 4,
-                            "y": 14
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "5a98c3fb524283afae6e89d1f5627e3fa688048cafb577282c8cd045ed4ad412",
-          "name": "Ruby",
-          "persistentUuid": "90666a44-120a-4c7c-8bd1-431b4e356a5f",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Ruby.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 3
-                          },
-                          {
-                            "x": 12,
-                            "y": 3
-                          },
-                          {
-                            "x": 12,
-                            "y": 13
-                          },
-                          {
-                            "x": 4,
-                            "y": 13
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "PlataformaEscondida",
           "persistentUuid": "d87db436-92aa-4a5c-9a18-22d32c03d94d",
@@ -5919,15 +6745,6 @@
           },
           {
             "objectName": "TituloDoJogo"
-          },
-          {
-            "objectName": "Emerald_Gem"
-          },
-          {
-            "objectName": "Sapphire_Gem"
-          },
-          {
-            "objectName": "Ruby"
           },
           {
             "objectName": "PlataformaEscondida"
@@ -14718,7 +15535,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5427920802473343,
+        "zoomFactor": 0.9227465364204681,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -14736,8 +15553,8 @@
           "name": "Personagem",
           "persistentUuid": "144fb3a3-18f2-49ad-9fb7-b7fb7afca1b0",
           "width": 64,
-          "x": 64,
-          "y": 768,
+          "x": 32,
+          "y": 800,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -22196,23 +23013,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Gold_Key",
-          "persistentUuid": "b10687da-2443-49c8-807c-040e9e867494",
-          "width": 32,
-          "x": 32,
-          "y": 160,
-          "zOrder": 27,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -22258,70 +23058,26 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Emerald_Gem",
+          "persistentUuid": "0c2f8e38-a0d8-487a-a7b0-63cdb6291cf6",
+          "width": 32,
+          "x": 32,
+          "y": 160,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Espinho",
-          "persistentUuid": "b2970968-8bbe-4d46-aa6e-d164483950f2",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Spike.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 9
-                          },
-                          {
-                            "x": 15,
-                            "y": 9
-                          },
-                          {
-                            "x": 15,
-                            "y": 16
-                          },
-                          {
-                            "x": 0,
-                            "y": 16
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "0714257da345b4ec7de558ac0e42290362b85a79c97160c0e09636cd2fc31e3c",
@@ -22645,9 +23401,6 @@
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "Espinho"
-          },
-          {
             "objectName": "Heart"
           },
           {
@@ -22753,7 +23506,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Colisão Chave",
+          "name": "Colisão Gema",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -22766,7 +23519,7 @@
                   },
                   "parameters": [
                     "Personagem",
-                    "Gold_Key",
+                    "Emerald_Gem",
                     "",
                     "",
                     ""
@@ -22785,7 +23538,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
-                    "Gold_Key",
+                    "Emerald_Gem",
                     "Animation",
                     "=",
                     "\"Coleta\""
@@ -22824,7 +23577,7 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "Gold_Key",
+                    "Emerald_Gem",
                     ""
                   ]
                 }
@@ -23016,7 +23769,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.4448515998886648,
+        "zoomFactor": 0.7315786463753018,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -23028,31 +23781,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 96,
+          "height": 64,
           "keepRatio": true,
           "layer": "",
           "name": "Personagem",
           "persistentUuid": "2309c5a8-aee6-4ed5-a93c-4deaa6734009",
-          "width": 96,
-          "x": 128,
-          "y": 768,
+          "width": 64,
+          "x": -352,
+          "y": 544,
           "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Grama_Esquerdo",
-          "persistentUuid": "740d6cfb-09ca-4df3-b53e-37c315502765",
-          "width": 0,
-          "x": 96,
-          "y": 960,
-          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -23143,22 +23880,6 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Barro_Inferior_Direito",
-          "persistentUuid": "bdda7427-2f63-48a4-913c-1f71cf50c46f",
-          "width": 0,
-          "x": 96,
-          "y": 992,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
           "name": "Barro_Inferior_Esquerdo",
           "persistentUuid": "2386d3ce-9435-4844-827d-a4665c25b39a",
           "width": 0,
@@ -23197,6 +23918,3904 @@
           "x": 192,
           "y": 992,
           "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Esquerdo",
+          "persistentUuid": "6fe95c70-9429-4227-a1b7-6f9e3cee12e4",
+          "width": 0,
+          "x": 384,
+          "y": 960,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "66294b0c-f508-4787-854f-078511425ffa",
+          "width": 0,
+          "x": 416,
+          "y": 960,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "5794e331-54e1-4f40-a28d-5bf24fbb6554",
+          "width": 0,
+          "x": 448,
+          "y": 960,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "c636a507-3b8e-4298-8e91-8d77bf150c10",
+          "width": 0,
+          "x": 480,
+          "y": 960,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Direito",
+          "persistentUuid": "7c6d34ca-73de-403f-ba14-69b855608692",
+          "width": 0,
+          "x": 512,
+          "y": 960,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "45a7f8b4-2d7d-40e5-bec3-5b0ccd512faa",
+          "width": 0,
+          "x": 416,
+          "y": 992,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Direito",
+          "persistentUuid": "fb81cc1c-5026-4b23-a57d-5b2708d06ea3",
+          "width": 0,
+          "x": 384,
+          "y": 992,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Esquerdo",
+          "persistentUuid": "d6ca842a-f584-42a4-b266-4df7a12584fc",
+          "width": 0,
+          "x": 512,
+          "y": 992,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "6f7c2b96-62c4-4dbd-b80f-be5d8d2d735d",
+          "width": 0,
+          "x": 448,
+          "y": 992,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "88877b0a-c52e-4327-9e9e-30684c60eb41",
+          "width": 0,
+          "x": 480,
+          "y": 992,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Esquerdo",
+          "persistentUuid": "4bf76ef1-86bd-498d-9a67-7ec29eb16149",
+          "width": 0,
+          "x": 768,
+          "y": 960,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "5845a636-c36d-4350-ad28-a08499a86cfc",
+          "width": 0,
+          "x": 800,
+          "y": 960,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "95759f7d-4551-4220-961d-90e1e3dfc157",
+          "width": 0,
+          "x": 832,
+          "y": 960,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "069a53bc-f2cc-4850-8a53-09991443ca61",
+          "width": 0,
+          "x": 864,
+          "y": 960,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Direito",
+          "persistentUuid": "8e80205d-696f-41df-9426-3f29cfd7f92f",
+          "width": 0,
+          "x": 896,
+          "y": 960,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "3edc146a-1ce3-43c3-bfcc-3b7c156a8c66",
+          "width": 0,
+          "x": 800,
+          "y": 992,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Direito",
+          "persistentUuid": "2ec9242f-996a-4854-9c58-b59db6959f79",
+          "width": 0,
+          "x": 768,
+          "y": 992,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Esquerdo",
+          "persistentUuid": "c5e301e8-c55b-4efb-a243-a708dfa63c9e",
+          "width": 0,
+          "x": 896,
+          "y": 992,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "80eff543-1bf1-409c-8bf7-c04b1cc84c41",
+          "width": 0,
+          "x": 832,
+          "y": 992,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "776ecb4e-a0c5-4fd0-9eaa-1e59abc42e41",
+          "width": 0,
+          "x": 864,
+          "y": 992,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Esquerdo",
+          "persistentUuid": "4410ff53-4be0-48bd-8017-ec3f90fff822",
+          "width": 0,
+          "x": 1088,
+          "y": 832,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "4be1fd27-1ed8-4749-9a9c-fa83eb8e140e",
+          "width": 0,
+          "x": 1120,
+          "y": 832,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "1b43bed0-a9b4-4fd6-972a-94110dbba01b",
+          "width": 0,
+          "x": 1152,
+          "y": 832,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "4f5413c5-4cdd-46ea-b96e-1d6be8dedf80",
+          "width": 0,
+          "x": 1184,
+          "y": 832,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Direito",
+          "persistentUuid": "fb1a7045-c99d-4bb8-9df5-b6e475ece318",
+          "width": 0,
+          "x": 1216,
+          "y": 832,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "891dc16c-d61d-4924-8fa2-399a1a1ae937",
+          "width": 0,
+          "x": 1120,
+          "y": 864,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Direito",
+          "persistentUuid": "010a367f-11f3-4669-beb7-c089cfa8d16f",
+          "width": 0,
+          "x": 1088,
+          "y": 864,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Esquerdo",
+          "persistentUuid": "c56f1ed3-a365-4a19-9ccd-8161039d1d89",
+          "width": 0,
+          "x": 1216,
+          "y": 864,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "03ad5530-8231-46f4-822d-0afe8f06535c",
+          "width": 0,
+          "x": 1152,
+          "y": 864,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "f68f8013-9b3b-4231-9313-472304bf08da",
+          "width": 0,
+          "x": 1184,
+          "y": 864,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Esquerdo",
+          "persistentUuid": "fbe406ad-d331-45e5-8ac1-e2601465a7c5",
+          "width": 0,
+          "x": 1344,
+          "y": 832,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "310165b5-fdd7-43b4-a26b-bf6a7fb6367b",
+          "width": 0,
+          "x": 1376,
+          "y": 832,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "e1069535-673c-4f81-bd1c-0c498d9f6f70",
+          "width": 0,
+          "x": 1408,
+          "y": 832,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "e308feca-ff2d-4def-9ea9-80e7f66cf158",
+          "width": 0,
+          "x": 1440,
+          "y": 832,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Direito",
+          "persistentUuid": "2fa9ca56-2b6f-41cd-b75f-115d7b668b72",
+          "width": 0,
+          "x": 1472,
+          "y": 832,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "e07eac43-6f1f-4a12-a95a-2975cfb796d9",
+          "width": 0,
+          "x": 1376,
+          "y": 864,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Direito",
+          "persistentUuid": "97663d57-a49e-47c5-8a29-17862aa15a74",
+          "width": 0,
+          "x": 1344,
+          "y": 864,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Esquerdo",
+          "persistentUuid": "753bb844-29db-488e-98b6-2c4be45086ce",
+          "width": 0,
+          "x": 1472,
+          "y": 864,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "7fb87dba-4679-4d7d-ab4e-87a3f281bbe5",
+          "width": 0,
+          "x": 1408,
+          "y": 864,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "300cd4c2-d562-41d6-b6cc-918771c9b75d",
+          "width": 0,
+          "x": 1440,
+          "y": 864,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Esquerdo",
+          "persistentUuid": "36f42f57-2055-473d-b7d3-22916edf7faf",
+          "width": 0,
+          "x": 1568,
+          "y": 992,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "48003e41-9c7e-42ce-8a89-f49647b8ecfd",
+          "width": 0,
+          "x": 1600,
+          "y": 992,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "688805e8-1743-4387-9fb6-3b35397c1ce5",
+          "width": 0,
+          "x": 1632,
+          "y": 992,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "3802fd57-1d8b-4aac-b6f8-30b2a4eb8f2c",
+          "width": 0,
+          "x": 1664,
+          "y": 992,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Direito",
+          "persistentUuid": "e2591b1a-a20d-4ff1-9d18-0f8f67ad19d4",
+          "width": 96,
+          "x": 1696,
+          "y": 992,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "f103290a-8470-44f9-8a1b-b7e3c119c530",
+          "width": 0,
+          "x": 1600,
+          "y": 1024,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Direito",
+          "persistentUuid": "b20199d9-b115-4518-bc1e-4fc1ebe1b4f0",
+          "width": 0,
+          "x": 1568,
+          "y": 1024,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Esquerdo",
+          "persistentUuid": "ce94c5a6-f640-4d31-a8c7-1d4a31bfa49c",
+          "width": 96,
+          "x": 1696,
+          "y": 1024,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "abe0a786-95fc-42de-8782-cbcb06a04623",
+          "width": 0,
+          "x": 1632,
+          "y": 1024,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "40e9297c-d786-4171-be18-a348fc9b3f65",
+          "width": 0,
+          "x": 1664,
+          "y": 1024,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro",
+          "persistentUuid": "6b47724d-c5df-4112-88a3-cb0c10f9cd92",
+          "width": 0,
+          "x": 1664,
+          "y": 736,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro",
+          "persistentUuid": "224dc463-f289-4888-8073-2120b6572a64",
+          "width": 0,
+          "x": 1664,
+          "y": 768,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro",
+          "persistentUuid": "bcd0768a-8cd4-4637-a13c-7b2d4a885d89",
+          "width": 0,
+          "x": 1664,
+          "y": 800,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro",
+          "persistentUuid": "9e395038-9c65-498f-9dd5-21bd76a723ce",
+          "width": 0,
+          "x": 1664,
+          "y": 800,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro",
+          "persistentUuid": "97f5d523-88a0-41a4-ba53-d72d74969bd9",
+          "width": 0,
+          "x": 1664,
+          "y": 864,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro",
+          "persistentUuid": "4edd2ad9-b3a7-4a70-a2f3-3696a86ba5fc",
+          "width": 0,
+          "x": 1664,
+          "y": 864,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro",
+          "persistentUuid": "cb926724-940f-4a23-a28b-2d5f69dbff4c",
+          "width": 0,
+          "x": 1664,
+          "y": 832,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro",
+          "persistentUuid": "ce4afd95-df1f-4f91-b295-99bac4f717e9",
+          "width": 0,
+          "x": 1664,
+          "y": 704,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro",
+          "persistentUuid": "04fd9651-c2e3-4ce0-bee8-a1aff0b2779e",
+          "width": 0,
+          "x": 1664,
+          "y": 640,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro",
+          "persistentUuid": "88e18402-e2b8-41e1-8c0b-8a2e03a05849",
+          "width": 0,
+          "x": 1664,
+          "y": 672,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Esquerdo",
+          "persistentUuid": "f98ebd2d-64e5-4f2a-be5f-b59cff3c69ec",
+          "width": 32,
+          "x": 1856,
+          "y": 896,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Direito",
+          "persistentUuid": "241583f6-9316-43fb-8e64-6599921a471d",
+          "width": 32,
+          "x": 1856,
+          "y": 928,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Direito",
+          "persistentUuid": "d89570fd-7b66-46a4-a5ff-ba4d07534796",
+          "width": 32,
+          "x": 1888,
+          "y": 896,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Esquerdo",
+          "persistentUuid": "8494a865-96df-4903-8acc-fa7da39030ef",
+          "width": 32,
+          "x": 1888,
+          "y": 928,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Esquerdo",
+          "persistentUuid": "5f735877-016c-4fe4-b8fb-7dd2383c8c7a",
+          "width": 64,
+          "x": 1696,
+          "y": 768,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Direito",
+          "persistentUuid": "7433e449-ed8e-4add-a36a-52955073082c",
+          "width": 64,
+          "x": 1696,
+          "y": 800,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Direito",
+          "persistentUuid": "e7285a16-1be1-4c42-b422-9c3c1a02d236",
+          "width": 32,
+          "x": 1760,
+          "y": 768,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Esquerdo",
+          "persistentUuid": "4d9bb6a7-2f3a-4867-9b1c-e681bb84c163",
+          "width": 32,
+          "x": 1760,
+          "y": 800,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Esquerdo",
+          "persistentUuid": "4829f40f-dfab-43b1-a346-bf0dd8653dc1",
+          "width": 32,
+          "x": 1856,
+          "y": 640,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Direito",
+          "persistentUuid": "77d33333-3784-4f5e-84f5-6c651550cd05",
+          "width": 32,
+          "x": 1856,
+          "y": 672,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Direito",
+          "persistentUuid": "b953ec85-1d50-4da7-a148-08ef0f4f2cd2",
+          "width": 32,
+          "x": 1888,
+          "y": 640,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Esquerdo",
+          "persistentUuid": "0614e27f-fdf7-4d38-a8e4-cdef55bbd820",
+          "width": 32,
+          "x": 1888,
+          "y": 672,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "f915a11b-c701-4370-8057-7f9c7654599d",
+          "width": 0,
+          "x": 1568,
+          "y": 544,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "13932d96-662a-4f0f-a83a-f00d1d6b8a78",
+          "width": 0,
+          "x": 1600,
+          "y": 544,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "735c420a-2653-4712-b71a-6a6edc1b49ed",
+          "width": 0,
+          "x": 1632,
+          "y": 544,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Direito",
+          "persistentUuid": "12fffe17-994a-4d85-8a59-c2c50c32b82a",
+          "width": 0,
+          "x": 1664,
+          "y": 544,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "b228465e-a009-4d28-9c82-76dacc0a3890",
+          "width": 0,
+          "x": 1568,
+          "y": 576,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Esquerdo",
+          "persistentUuid": "fe8a875e-66df-422c-b1ab-783737f33c5a",
+          "width": 0,
+          "x": 1664,
+          "y": 576,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "65f08119-bca8-474e-b2e9-a3b0f04b0cf7",
+          "width": 0,
+          "x": 1600,
+          "y": 576,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "8ae4b107-8e55-4510-8f31-9ac5a92b1adb",
+          "width": 0,
+          "x": 1632,
+          "y": 576,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Esquerdo",
+          "persistentUuid": "75c8b60e-7852-4c2d-be39-2dc92766214e",
+          "width": 64,
+          "x": 1408,
+          "y": 544,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "286a1f2e-f00e-48c2-98c4-3f9be76ca339",
+          "width": 0,
+          "x": 1472,
+          "y": 544,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "64ee09e5-82fb-4cd3-8eab-b5213b5b512a",
+          "width": 0,
+          "x": 1504,
+          "y": 544,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "36e6892a-841b-48e1-ad80-2b061c788abd",
+          "width": 0,
+          "x": 1536,
+          "y": 544,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "80466c4b-7ea0-41e6-8c7d-39ce15b1bba4",
+          "width": 0,
+          "x": 1472,
+          "y": 576,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Direito",
+          "persistentUuid": "a38c5795-6d1a-481e-bfc9-5d8166eb5eac",
+          "width": 64,
+          "x": 1408,
+          "y": 576,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "e4e48a1e-e977-4b31-9dd2-d50d437f3531",
+          "width": 0,
+          "x": 1504,
+          "y": 576,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "ca8aea44-5293-4eb6-8779-a4234131a38d",
+          "width": 0,
+          "x": 1536,
+          "y": 576,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro",
+          "persistentUuid": "b1afe5cc-f853-4a9f-86f7-e938f4606478",
+          "width": 0,
+          "x": 1664,
+          "y": 640,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro",
+          "persistentUuid": "d31d0509-3f55-4c8a-a439-218f046ce9bb",
+          "width": 0,
+          "x": 1664,
+          "y": 608,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "142198b4-69b9-48f0-9f5b-257e8158dbe0",
+          "width": 0,
+          "x": 1792,
+          "y": 160,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "780dde32-492e-479f-83a8-d089b66a5fef",
+          "width": 0,
+          "x": 1824,
+          "y": 160,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "4bb9390d-ef55-44f2-a6e4-860749f9b71d",
+          "width": 0,
+          "x": 1856,
+          "y": 160,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Direito",
+          "persistentUuid": "5ffa4a64-cf2a-4181-bfce-610f70a3dd3d",
+          "width": 0,
+          "x": 1888,
+          "y": 160,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "90aa42eb-8137-4746-866f-ea678d0546be",
+          "width": 0,
+          "x": 1792,
+          "y": 192,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Esquerdo",
+          "persistentUuid": "f7ec90bc-4117-4876-abac-6020d3ad4e74",
+          "width": 0,
+          "x": 1888,
+          "y": 192,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "0a74dcaa-6abd-4611-a50e-17a9baefa192",
+          "width": 0,
+          "x": 1824,
+          "y": 192,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "f8391a9e-d5ee-4d84-b11f-0768cb6a5ca7",
+          "width": 0,
+          "x": 1856,
+          "y": 192,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Esquerdo",
+          "persistentUuid": "6186ae79-d5c4-4324-a1a4-25a2e30c6a86",
+          "width": 64,
+          "x": 1632,
+          "y": 160,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "68baa4a2-f9ca-450a-9904-341de9a2b5b6",
+          "width": 0,
+          "x": 1696,
+          "y": 160,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "e7c6093c-bb65-43c4-b922-c0339ec57c04",
+          "width": 0,
+          "x": 1728,
+          "y": 160,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "158d7733-3656-43a7-a336-89ea3d15309b",
+          "width": 0,
+          "x": 1760,
+          "y": 160,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "7a473a82-f842-4db6-99e2-b83d74464f05",
+          "width": 0,
+          "x": 1696,
+          "y": 192,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Direito",
+          "persistentUuid": "6e78212f-5ae8-4451-aca5-08cb80d136a2",
+          "width": 64,
+          "x": 1632,
+          "y": 192,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "7943ad11-dd32-446a-8b9d-901431b8fac6",
+          "width": 0,
+          "x": 1728,
+          "y": 192,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "5041fbd8-76ee-4143-a6ce-1394db1ea8f5",
+          "width": 0,
+          "x": 1760,
+          "y": 192,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Esquerdo",
+          "persistentUuid": "eb7589e6-0fae-44db-ad7b-df74b35cfe86",
+          "width": 0,
+          "x": 1056,
+          "y": 544,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "8402bb94-33de-4657-86e6-539dcd5c5e6b",
+          "width": 0,
+          "x": 1088,
+          "y": 544,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "ca721b26-765f-48ed-b85b-b6944512390b",
+          "width": 0,
+          "x": 1120,
+          "y": 544,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "bc6060ee-804f-4b62-be67-069185f29c9f",
+          "width": 0,
+          "x": 1152,
+          "y": 544,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Direito",
+          "persistentUuid": "fabc02ba-2bc3-41b8-8cfb-5bdf2e4130c6",
+          "width": 0,
+          "x": 1184,
+          "y": 544,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "f07c7f99-f9d7-4196-852a-e66b927b9c67",
+          "width": 0,
+          "x": 1088,
+          "y": 576,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Direito",
+          "persistentUuid": "2a3cdec2-c487-41a3-b4f5-61344812774c",
+          "width": 0,
+          "x": 1056,
+          "y": 576,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Esquerdo",
+          "persistentUuid": "368cc6d3-b801-477e-b1a1-d06bbd51cc5c",
+          "width": 0,
+          "x": 1184,
+          "y": 576,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "2b576e6e-da13-4f23-bdf9-2d724577db9f",
+          "width": 0,
+          "x": 1120,
+          "y": 576,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "c1e8aefc-0fb2-405f-83be-ad6b84b563ca",
+          "width": 0,
+          "x": 1152,
+          "y": 576,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Espinho",
+          "persistentUuid": "ffbc93d5-bf75-4f7b-a972-b7ec9116babd",
+          "width": 32,
+          "x": 1120,
+          "y": 512,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Espinho",
+          "persistentUuid": "33213bde-bffd-472f-bf69-28f15f5cee49",
+          "width": 32,
+          "x": 1536,
+          "y": 512,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Espinho",
+          "persistentUuid": "1fa39b3e-6365-429f-9afa-5b854f9a6e87",
+          "width": 32,
+          "x": 1504,
+          "y": 512,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Esquerdo",
+          "persistentUuid": "d1897e71-e7cc-4dcc-9c0c-922900f6a938",
+          "width": 32,
+          "x": 896,
+          "y": 576,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Direito",
+          "persistentUuid": "4e328a53-1332-43de-a8ca-3b103fd94263",
+          "width": 32,
+          "x": 896,
+          "y": 608,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Direito",
+          "persistentUuid": "640fa937-4ece-47db-af2a-1e800de67288",
+          "width": 32,
+          "x": 928,
+          "y": 576,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Esquerdo",
+          "persistentUuid": "b3b222e4-abf9-451c-a4e8-63f3565e5209",
+          "width": 32,
+          "x": 928,
+          "y": 608,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Esquerdo",
+          "persistentUuid": "21c4972d-9be1-4c0b-981d-43dac221cf22",
+          "width": 32,
+          "x": 704,
+          "y": 576,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Direito",
+          "persistentUuid": "6d103ba2-a558-4156-96d5-8a3f49706905",
+          "width": 32,
+          "x": 704,
+          "y": 608,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Direito",
+          "persistentUuid": "ad07b3b9-1de5-4ca6-afa2-b891249d9702",
+          "width": 32,
+          "x": 736,
+          "y": 576,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Esquerdo",
+          "persistentUuid": "eec88312-4803-4d99-9ce7-88f671225631",
+          "width": 32,
+          "x": 736,
+          "y": 608,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Esquerdo",
+          "persistentUuid": "f2a325e8-16fc-4dc2-ad0d-d83c57dacb35",
+          "width": 32,
+          "x": 544,
+          "y": 576,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Direito",
+          "persistentUuid": "c4d52186-c30b-46ba-8fbc-fb7a049a753e",
+          "width": 32,
+          "x": 544,
+          "y": 608,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Direito",
+          "persistentUuid": "2563a994-39d1-44fd-aba7-5e51d0e48e70",
+          "width": 32,
+          "x": 576,
+          "y": 576,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Esquerdo",
+          "persistentUuid": "be146365-ee73-405b-821d-5d71d0d4cd6f",
+          "width": 32,
+          "x": 576,
+          "y": 608,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Esquerdo",
+          "persistentUuid": "67f9ec95-ee0a-4e2c-92fa-66e82a26fde6",
+          "width": 0,
+          "x": 320,
+          "y": 704,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "945181fa-a68b-4186-ba4a-80f592458f45",
+          "width": 0,
+          "x": 352,
+          "y": 704,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "e6e56cfb-976e-4a7e-830d-6d9b827aa246",
+          "width": 0,
+          "x": 384,
+          "y": 704,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "10d22cdc-0a56-4d97-a578-abac6fa3af8d",
+          "width": 0,
+          "x": 416,
+          "y": 704,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Direito",
+          "persistentUuid": "3d0df4ca-a2f6-4ef9-bf3c-0f837378a5b0",
+          "width": 0,
+          "x": 448,
+          "y": 704,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "c0992380-9213-49b8-a766-b887d01b71dc",
+          "width": 0,
+          "x": 352,
+          "y": 736,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Direito",
+          "persistentUuid": "50c93ce6-15de-4b57-86f0-1525763a8a55",
+          "width": 0,
+          "x": 320,
+          "y": 736,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Esquerdo",
+          "persistentUuid": "433e6fe9-4d07-4e38-83ff-72e0393e7c9d",
+          "width": 0,
+          "x": 448,
+          "y": 736,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "edfa917d-a722-4833-bec3-6dfabfad7d46",
+          "width": 0,
+          "x": 384,
+          "y": 736,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "42891ed9-0546-4242-a520-ffb9c8143e0f",
+          "width": 0,
+          "x": 416,
+          "y": 736,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Esquerdo",
+          "persistentUuid": "c59347d5-5e1d-48a9-be0d-1d1595c09221",
+          "width": 32,
+          "x": 32,
+          "y": 576,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Direito",
+          "persistentUuid": "42fe828f-8513-4684-b9a7-3b4e3eeee8b1",
+          "width": 32,
+          "x": 32,
+          "y": 608,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Direito",
+          "persistentUuid": "f9e7aab1-2331-47bd-b17d-9284054465c2",
+          "width": 32,
+          "x": 64,
+          "y": 576,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Esquerdo",
+          "persistentUuid": "04b8173d-a159-4839-bc8f-cefc4884515a",
+          "width": 32,
+          "x": 64,
+          "y": 608,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Esquerdo",
+          "persistentUuid": "58695dfb-980f-4484-92ad-b61a6cb7edac",
+          "width": 32,
+          "x": 192,
+          "y": 416,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Direito",
+          "persistentUuid": "9ac0fe80-d589-45bc-9937-7cde3da3a29f",
+          "width": 32,
+          "x": 192,
+          "y": 448,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Direito",
+          "persistentUuid": "1cdb6c1f-7a26-4841-ba12-1f4b75b1e621",
+          "width": 32,
+          "x": 224,
+          "y": 416,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Esquerdo",
+          "persistentUuid": "85bc849b-1b87-4049-a33a-e48ef6d99194",
+          "width": 32,
+          "x": 224,
+          "y": 448,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Esquerdo",
+          "persistentUuid": "37463766-c463-4659-9364-fe4848e89541",
+          "width": 32,
+          "x": 32,
+          "y": 288,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Direito",
+          "persistentUuid": "b842f78e-5b6f-4ee8-a95a-ea60a5b0bcf7",
+          "width": 32,
+          "x": 32,
+          "y": 320,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Direito",
+          "persistentUuid": "3473f090-1609-4b74-adf5-f6da47826343",
+          "width": 32,
+          "x": 64,
+          "y": 288,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Esquerdo",
+          "persistentUuid": "e52d4059-b9f6-4ce1-8b36-ef2161260461",
+          "width": 32,
+          "x": 64,
+          "y": 320,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Esquerdo",
+          "persistentUuid": "fe0eff93-513e-4ca9-adc4-04b64223256a",
+          "width": 0,
+          "x": 256,
+          "y": 192,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "12b1edd6-3516-4b05-b7ef-224442d8468a",
+          "width": 0,
+          "x": 288,
+          "y": 192,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "5c69a897-52db-4269-a54e-03b2f460cb3b",
+          "width": 0,
+          "x": 320,
+          "y": 192,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "739a1ea2-8fe3-42e7-bbb1-633241098cf3",
+          "width": 0,
+          "x": 352,
+          "y": 192,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Direito",
+          "persistentUuid": "34fae05b-3eb5-4e9a-99a5-98f09e87c324",
+          "width": 0,
+          "x": 384,
+          "y": 192,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "dcf3ef27-28fa-4da2-b2e8-84ab71edfa4f",
+          "width": 0,
+          "x": 288,
+          "y": 224,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Direito",
+          "persistentUuid": "7f3f733d-614e-4bb8-a5c8-d2580c093511",
+          "width": 0,
+          "x": 256,
+          "y": 224,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Esquerdo",
+          "persistentUuid": "dd0a3cb4-4084-4928-87ad-817a0024af5f",
+          "width": 0,
+          "x": 384,
+          "y": 224,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "b81609c5-b6d8-4284-b48f-c144256d8927",
+          "width": 0,
+          "x": 320,
+          "y": 224,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "81a00956-f308-4b7a-b8fd-8e095f6bbc3a",
+          "width": 0,
+          "x": 352,
+          "y": 224,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "b94a7e42-f8e6-48fe-8195-fbcae9e8fc0a",
+          "width": 0,
+          "x": 832,
+          "y": 192,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "08f92703-cdcb-432e-8cb9-5e917212b6a8",
+          "width": 0,
+          "x": 864,
+          "y": 192,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "26f20f1f-7266-4d27-8e03-403c3fc004d0",
+          "width": 0,
+          "x": 896,
+          "y": 192,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "f58f65ed-1cc4-4510-ad19-a1d182d57c7c",
+          "width": 0,
+          "x": 832,
+          "y": 224,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "7852f675-6ba2-4b3a-b5a9-926509533c98",
+          "width": 0,
+          "x": 864,
+          "y": 224,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "c3e0e887-ef4e-4a53-9d6a-c99221cbf625",
+          "width": 0,
+          "x": 896,
+          "y": 224,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Esquerdo",
+          "persistentUuid": "d58952b5-c657-4895-9044-1c250eb18f1a",
+          "width": 64,
+          "x": 672,
+          "y": 192,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "e504c69f-219c-488a-89a5-827099ed2b60",
+          "width": 0,
+          "x": 736,
+          "y": 192,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "72be34fb-323c-49c8-a4c3-64c4c24e8e23",
+          "width": 0,
+          "x": 768,
+          "y": 192,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "8b031ae3-00f2-4b9f-982f-1a353d35f1c0",
+          "width": 0,
+          "x": 800,
+          "y": 192,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "a6a76578-6d27-4728-9275-54076b838e9c",
+          "width": 0,
+          "x": 736,
+          "y": 224,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Direito",
+          "persistentUuid": "0ce0052c-1ef8-438f-92ae-012eda1ef51c",
+          "width": 64,
+          "x": 672,
+          "y": 224,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "459aa6ca-c02f-49fa-adbe-ee031924b235",
+          "width": 0,
+          "x": 768,
+          "y": 224,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "f8c22dc4-a0da-4664-a50d-381b74f2412e",
+          "width": 0,
+          "x": 800,
+          "y": 224,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "f809e928-6cb3-4fae-8b82-bd6979fed076",
+          "width": 0,
+          "x": 960,
+          "y": 192,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "25336927-27d7-4bee-872a-6ce6bd1d9207",
+          "width": 0,
+          "x": 960,
+          "y": 224,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "0f5435ae-9dd6-4bd2-938a-7bf639b6d790",
+          "width": 0,
+          "x": 928,
+          "y": 192,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "f0af9818-3ef3-4c2a-a8b7-475092a8bcec",
+          "width": 0,
+          "x": 928,
+          "y": 224,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "5ec6e83f-dad7-4216-a7f8-ffb1790e9c65",
+          "width": 0,
+          "x": 1024,
+          "y": 192,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "ed36a896-c19c-41c3-b741-0de4980ed336",
+          "width": 0,
+          "x": 1024,
+          "y": 224,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "85bf416b-b56e-47cb-ae83-59ad92a94b82",
+          "width": 0,
+          "x": 992,
+          "y": 192,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "b9d42c97-4ef3-47a4-a350-437f76a5d0c8",
+          "width": 0,
+          "x": 992,
+          "y": 224,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "cb13ed5e-c09e-4c89-88fb-cdbcc76b63ac",
+          "width": 0,
+          "x": 1056,
+          "y": 192,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "02bd0a51-9cd4-49c5-b271-314a1201cb67",
+          "width": 0,
+          "x": 1056,
+          "y": 224,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "4f99cc21-58c4-41e3-8c42-f24f35033b9d",
+          "width": 0,
+          "x": 1088,
+          "y": 192,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "eb50e986-62e4-453c-b29a-23fcb69306aa",
+          "width": 0,
+          "x": 1088,
+          "y": 224,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "df0b141b-7dc7-4023-80fd-e9ff8926d0a9",
+          "width": 0,
+          "x": 1120,
+          "y": 192,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "2eb42757-db6e-4d90-8123-506b050bc1c6",
+          "width": 0,
+          "x": 1120,
+          "y": 224,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "237df1fa-ff93-4498-a15c-04676ab25cf6",
+          "width": 0,
+          "x": 1184,
+          "y": 192,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "dff31247-b098-40ef-be6a-0254c48e8942",
+          "width": 0,
+          "x": 1184,
+          "y": 224,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "af4ac20b-9792-4a7f-aedb-1a1876c69f6c",
+          "width": 0,
+          "x": 1152,
+          "y": 192,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "c423251b-874e-4970-be41-494e729c719a",
+          "width": 0,
+          "x": 1152,
+          "y": 224,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "7a953393-2f22-4c87-8625-e819d3ef64cf",
+          "width": 0,
+          "x": 1216,
+          "y": 192,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "793d8c8e-9716-4093-9139-1913320bf7aa",
+          "width": 0,
+          "x": 1216,
+          "y": 224,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "6df10489-f712-46ad-9aaa-28bba7e62752",
+          "width": 0,
+          "x": 1248,
+          "y": 192,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "67a395fe-4f8b-4e19-8c31-63b3d3a04bc9",
+          "width": 0,
+          "x": 1248,
+          "y": 224,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "9666a3eb-7c83-4765-8d86-8d9249967c71",
+          "width": 0,
+          "x": 1280,
+          "y": 192,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "c724bdd0-ec5e-464f-a6a2-a8c4f506df36",
+          "width": 0,
+          "x": 1280,
+          "y": 224,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "5eb37d5d-6bc9-4ee9-9fca-4680eda9c35c",
+          "width": 0,
+          "x": 1312,
+          "y": 192,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "a709d38f-668d-497c-9666-0103c5aa0f27",
+          "width": 0,
+          "x": 1312,
+          "y": 224,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "13539ebf-b853-45ef-923d-4bb6e2c320a6",
+          "width": 0,
+          "x": 1344,
+          "y": 192,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "6ef96686-252d-4dca-a14a-960a9e599fca",
+          "width": 0,
+          "x": 1344,
+          "y": 224,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "127e27a6-460d-47b8-a9f5-d0eb2840602a",
+          "width": 0,
+          "x": 1376,
+          "y": 192,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "29027df0-5c69-470c-a1d8-8b0b9968f1cb",
+          "width": 0,
+          "x": 1376,
+          "y": 224,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "9f2110db-ab0b-41c5-9afe-6b21c6ba58f9",
+          "width": 0,
+          "x": 1408,
+          "y": 192,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "b9675ba3-7e1b-489c-a261-98fa2bfbc086",
+          "width": 0,
+          "x": 1408,
+          "y": 224,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Espinho",
+          "persistentUuid": "cebbed11-13d0-4f38-b64e-8f8cf83bdc89",
+          "width": 32,
+          "x": 1408,
+          "y": 160,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Esquerdo",
+          "persistentUuid": "7bde7b34-224f-4b0e-b658-25bc9b14de0c",
+          "width": 32,
+          "x": -352,
+          "y": 608,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Direito",
+          "persistentUuid": "a58d4c96-ad66-46d0-9e60-2d4ff6e3d5f1",
+          "width": 32,
+          "x": -352,
+          "y": 640,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Direito",
+          "persistentUuid": "5f33658c-d607-41aa-b467-8e98d2f992aa",
+          "width": 32,
+          "x": -320,
+          "y": 608,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Esquerdo",
+          "persistentUuid": "e41e020e-2e39-4ee0-a9bb-010a9930bb27",
+          "width": 32,
+          "x": -320,
+          "y": 640,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Esquerdo",
+          "persistentUuid": "b995a8f5-cb32-40c4-a917-b45f2c6441da",
+          "width": 0,
+          "x": -640,
+          "y": 736,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "c7a2c9d4-27f4-46f6-8c09-17a2cd8078df",
+          "width": 0,
+          "x": -608,
+          "y": 736,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "1c958dbb-4e7c-45ce-a5ad-aaca1fb04953",
+          "width": 0,
+          "x": -576,
+          "y": 736,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "726dfa30-48e6-49b3-b668-d956c364a3fd",
+          "width": 0,
+          "x": -544,
+          "y": 736,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Direito",
+          "persistentUuid": "65a7e15c-b822-415d-aae3-54fa725c571b",
+          "width": 0,
+          "x": -512,
+          "y": 736,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "14812707-c88a-4bc9-9b8d-1579d51c5f90",
+          "width": 0,
+          "x": -608,
+          "y": 768,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Direito",
+          "persistentUuid": "418002a3-384b-4c1d-bc2f-cf91db512abf",
+          "width": 0,
+          "x": -640,
+          "y": 768,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Esquerdo",
+          "persistentUuid": "04b440c4-350a-4104-824a-dbd35c411ea2",
+          "width": 0,
+          "x": -512,
+          "y": 768,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "07b1ea81-f8a5-48fd-a852-a958126ea126",
+          "width": 0,
+          "x": -576,
+          "y": 768,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "b6b50cd2-982b-4476-a96d-49078029acff",
+          "width": 0,
+          "x": -544,
+          "y": 768,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Espinho",
+          "persistentUuid": "f14e7023-89f1-4b83-86f7-ea6065bc5c16",
+          "width": 32,
+          "x": -576,
+          "y": 704,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Esquerdo",
+          "persistentUuid": "9805ec15-222d-40ab-b16d-cebeca53a0ac",
+          "width": 32,
+          "x": -864,
+          "y": 736,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Direito",
+          "persistentUuid": "de9c81a3-3aa9-4a58-a5c0-405193582956",
+          "width": 32,
+          "x": -864,
+          "y": 768,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Direito",
+          "persistentUuid": "aff5830a-0fb8-40d1-870c-6855086c3602",
+          "width": 32,
+          "x": -832,
+          "y": 736,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Esquerdo",
+          "persistentUuid": "17e2c00e-d4bc-493c-95f1-24939121c0f5",
+          "width": 32,
+          "x": -832,
+          "y": 768,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Esquerdo",
+          "persistentUuid": "eb80cde6-eb39-4191-a15e-45e3f1ad3da8",
+          "width": 0,
+          "x": 0,
+          "y": 960,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Inferior_Direito",
+          "persistentUuid": "415e9e4b-5bcb-46c5-8ebb-665c282e84cd",
+          "width": 0,
+          "x": 0,
+          "y": 992,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "a50396a0-32e0-4a50-a153-2dc792f78585",
+          "width": 0,
+          "x": 64,
+          "y": 960,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "98e55f0f-d9d1-42ce-af09-1cfe7b4b9982",
+          "width": 0,
+          "x": 64,
+          "y": 992,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "d44c7ef8-12ee-4a00-bc4f-75e8f0aaf19f",
+          "width": 0,
+          "x": 32,
+          "y": 960,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grama_Meio",
+          "persistentUuid": "6921b7ef-017f-460a-a0df-affe3b860a72",
+          "width": 0,
+          "x": 96,
+          "y": 960,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "89f440b5-304f-4c44-95c8-6aa4bb8cd2b7",
+          "width": 0,
+          "x": 64,
+          "y": 992,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "823c256a-ec8b-4eef-b4d6-e7d7431a23c3",
+          "width": 0,
+          "x": 96,
+          "y": 992,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro_Base",
+          "persistentUuid": "e30064bf-4618-4680-9d8c-c6f9794eda45",
+          "width": 0,
+          "x": 32,
+          "y": 992,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Sapphire_Gem",
+          "persistentUuid": "4517bff6-79c2-407e-a681-220cbaa7cf44",
+          "width": 32,
+          "x": -864,
+          "y": 704,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Door",
+          "persistentUuid": "c23be5bb-93b8-4e4a-8e3a-e02330b31c54",
+          "width": 0,
+          "x": 1748,
+          "y": 0,
+          "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -23239,6 +27858,149 @@
             "includeConfig": 0
           },
           "target": "Hud"
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Colisão Gema",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Personagem",
+                    "Sapphire_Gem",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Sapphire_Gem",
+                    "Animation",
+                    "=",
+                    "\"Coleta\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Door",
+                    "1748",
+                    "0",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                  },
+                  "parameters": [
+                    "Gold_Key",
+                    "Animation"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Sapphire_Gem",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Colisão Portal",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Personagem",
+                    "Door",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Door",
+                    "Animation",
+                    "=",
+                    "\"Coleta\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Level-2\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         }
       ],
       "layers": [
@@ -25181,12 +29943,9 @@
           "defaultName": "GameOverDialog",
           "description": "Display the score and let players choose what to do next.",
           "fullName": "Game over dialog",
-          "helpPath": "",
-          "iconUrl": "",
           "isInnerAreaFollowingParentSize": true,
           "isUsingLegacyInstancesRenderer": false,
           "name": "LeaderboardDialog",
-          "previewIconUrl": "",
           "objects": [
             {
               "assetStoreId": "",
@@ -28246,11 +33005,8 @@
         {
           "description": "The finite state machine used internally by the button object.",
           "fullName": "Button finite state machine",
-          "helpPath": "",
-          "iconUrl": "",
           "name": "ButtonFSM",
           "objectType": "",
-          "previewIconUrl": "",
           "private": true,
           "eventsFunctions": [
             {
@@ -29474,11 +34230,8 @@
         {
           "description": "Change the text style when the button is hovered.",
           "fullName": "Hover text style",
-          "helpPath": "",
-          "iconUrl": "",
           "name": "TextStyleState",
           "objectType": "TextObject::Text",
-          "previewIconUrl": "",
           "private": true,
           "eventsFunctions": [
             {
@@ -30003,11 +34756,8 @@
         {
           "description": "Change the text style when the button is hovered.",
           "fullName": "Hover bitmap text style",
-          "helpPath": "",
-          "iconUrl": "",
           "name": "BitmapTextStyleState",
           "objectType": "BitmapText::BitmapTextObject",
-          "previewIconUrl": "",
           "private": true,
           "eventsFunctions": [
             {
@@ -30465,12 +35215,9 @@
           "defaultName": "Button",
           "description": "Button with a label.",
           "fullName": "Labeled button",
-          "helpPath": "",
-          "iconUrl": "",
           "isInnerAreaFollowingParentSize": true,
           "isUsingLegacyInstancesRenderer": false,
           "name": "PanelSpriteButton",
-          "previewIconUrl": "",
           "objects": [
             {
               "assetStoreId": "",
@@ -33554,11 +38301,8 @@
         {
           "description": "Tween objects into position from off screen.",
           "fullName": "Tween into view",
-          "helpPath": "",
-          "iconUrl": "",
           "name": "TweenIntoView",
           "objectType": "",
-          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -35816,13 +40560,10 @@
           "defaultName": "",
           "description": "A dialog box showing two options.",
           "fullName": "Two choices dialog box ",
-          "helpPath": "",
-          "iconUrl": "",
           "isInnerAreaFollowingParentSize": true,
           "isTextContainer": true,
           "isUsingLegacyInstancesRenderer": false,
           "name": "TwoChoicesDialogBox",
-          "previewIconUrl": "",
           "objects": [
             {
               "assetStoreId": "90d94b6e3a23c34948e59eaaef4679740f8ab588696d59b21e0c0c2ef106b94d",
@@ -39846,11 +44587,8 @@
         {
           "description": "Control a platformer character with a gamepad.",
           "fullName": "Platformer gamepad mapper",
-          "helpPath": "",
-          "iconUrl": "",
           "name": "PlatformerGamepadMapper",
           "objectType": "",
-          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -40454,11 +45192,8 @@
         {
           "description": "Control a 3D physics character with a gamepad.",
           "fullName": "3D platformer gamepad mapper",
-          "helpPath": "",
-          "iconUrl": "",
           "name": "Platformer3DGamepadMapper",
           "objectType": "",
-          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -40681,11 +45416,8 @@
         {
           "description": "Control a 3D physics character with a gamepad.",
           "fullName": "3D shooter gamepad mapper",
-          "helpPath": "",
-          "iconUrl": "",
           "name": "Shooter3DGamepadMapper",
           "objectType": "",
-          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -40917,11 +45649,8 @@
         {
           "description": "Control camera rotations with a gamepad.",
           "fullName": "First person camera gamepad mapper",
-          "helpPath": "",
-          "iconUrl": "",
           "name": "FirstPersonGamepadMapper",
           "objectType": "",
-          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -42116,11 +46845,8 @@
         {
           "description": "Control a 3D physics car with a gamepad.",
           "fullName": "3D car gamepad mapper",
-          "helpPath": "",
-          "iconUrl": "",
           "name": "PhysicsCar3DGamepadMapper",
           "objectType": "",
-          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -42524,11 +47250,8 @@
         {
           "description": "Control a top-down character with a gamepad.",
           "fullName": "Top-down gamepad mapper",
-          "helpPath": "",
-          "iconUrl": "",
           "name": "TopDownGamepadMapper",
           "objectType": "",
-          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
