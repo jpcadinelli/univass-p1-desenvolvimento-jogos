@@ -29423,7 +29423,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.13935037485557009,
+        "zoomFactor": 0.5427920802473353,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -35603,6 +35603,342 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Meteoro",
+          "persistentUuid": "9fb329d0-c207-46c2-b8cb-5a4fc3e4d543",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "acceleration": 1500,
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": true,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": true,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "slopeMaxAngle": 60,
+              "useLegacyTrajectory": false,
+              "useRepeatedJump": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/itens/meteoro/meteoro-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 164,
+                            "y": 307
+                          },
+                          {
+                            "x": 256.5,
+                            "y": 304.5
+                          },
+                          {
+                            "x": 259.5,
+                            "y": 404.5
+                          },
+                          {
+                            "x": 162.5,
+                            "y": 405
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/itens/meteoro/meteoro-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 164,
+                            "y": 307
+                          },
+                          {
+                            "x": 256.5,
+                            "y": 304.5
+                          },
+                          {
+                            "x": 259.5,
+                            "y": 404.5
+                          },
+                          {
+                            "x": 162.5,
+                            "y": 405
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/itens/meteoro/meteoro-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 164,
+                            "y": 307
+                          },
+                          {
+                            "x": 256.5,
+                            "y": 304.5
+                          },
+                          {
+                            "x": 259.5,
+                            "y": 404.5
+                          },
+                          {
+                            "x": 162.5,
+                            "y": 405
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/itens/meteoro/meteoro-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 164,
+                            "y": 307
+                          },
+                          {
+                            "x": 256.5,
+                            "y": 304.5
+                          },
+                          {
+                            "x": 259.5,
+                            "y": 404.5
+                          },
+                          {
+                            "x": 162.5,
+                            "y": 405
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/itens/meteoro/meteoro-5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 164,
+                            "y": 307
+                          },
+                          {
+                            "x": 256.5,
+                            "y": 304.5
+                          },
+                          {
+                            "x": 259.5,
+                            "y": 404.5
+                          },
+                          {
+                            "x": 162.5,
+                            "y": 405
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/itens/meteoro/meteoro-6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 164,
+                            "y": 307
+                          },
+                          {
+                            "x": 256.5,
+                            "y": 304.5
+                          },
+                          {
+                            "x": 259.5,
+                            "y": 404.5
+                          },
+                          {
+                            "x": 162.5,
+                            "y": 405
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/itens/meteoro/meteoro-7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 164,
+                            "y": 307
+                          },
+                          {
+                            "x": 256.5,
+                            "y": 304.5
+                          },
+                          {
+                            "x": 259.5,
+                            "y": 404.5
+                          },
+                          {
+                            "x": 162.5,
+                            "y": 405
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/itens/meteoro/meteoro-8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 164,
+                            "y": 307
+                          },
+                          {
+                            "x": 256.5,
+                            "y": 304.5
+                          },
+                          {
+                            "x": 259.5,
+                            "y": 404.5
+                          },
+                          {
+                            "x": 162.5,
+                            "y": 405
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Meteoro2",
+          "persistentUuid": "e7c84511-2bfa-4cad-8fc0-8265a6f97d74",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -35942,6 +36278,9 @@
           },
           {
             "objectName": "Meteoro"
+          },
+          {
+            "objectName": "Meteoro2"
           }
         ]
       },
@@ -36253,6 +36592,18 @@
                 "-420",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Meteoro2",
+                "2924",
+                "-420",
+                ""
+              ]
             }
           ]
         },
@@ -36279,6 +36630,18 @@
                 "Meteoro",
                 "=",
                 "1052",
+                "=",
+                "-420"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "Meteoro2",
+                "=",
+                "2924",
                 "=",
                 "-420"
               ]
@@ -37359,84 +37722,6 @@
                     "1000"
                   ]
                 }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "Vida",
-                        "<=",
-                        "0"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Show"
-                      },
-                      "parameters": [
-                        "SkullGameOverDialog",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetCenter"
-                      },
-                      "parameters": [
-                        "SkullGameOverDialog",
-                        "=",
-                        "CameraCenterX()",
-                        "=",
-                        "CameraCenterY()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "Personagem",
-                        "Animation",
-                        "=",
-                        "\"Death\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "Personagem",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "3"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Scene"
-                      },
-                      "parameters": [
-                        "",
-                        "\"Menu\"",
-                        ""
-                      ]
-                    }
-                  ]
-                }
               ]
             }
           ],
@@ -37492,6 +37777,73 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Vida",
+                "<=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "SkullGameOverDialog",
+                "=",
+                "CameraCenterX()",
+                "=",
+                "CameraCenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Personagem",
+                "Animation",
+                "=",
+                "\"Death\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Personagem",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Menu\"",
+                ""
+              ]
+            }
+          ]
         },
         {
           "colorB": 228,
