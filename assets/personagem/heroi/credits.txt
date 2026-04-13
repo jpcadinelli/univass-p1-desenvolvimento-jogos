@@ -1,0 +1,224 @@
+body/bodies/muscular/walk.png
+	- Note: see details at https://opengameart.org/content/lpc-character-bases
+	- Licenses:
+		- CC-BY-SA 3.0
+		- GPL 3.0
+	- Authors:
+		- bluecarrot16
+		- JaidynReiman
+		- Evert
+		- TheraHedwig
+		- MuffinElZangano
+		- Durrani
+		- Sander Frenken (castelonia)
+		- Benjamin K. Smith (BenCreating)
+		- Eliza Wyatt (ElizaWy)
+		- dalonedrau
+		- Stephen Challener (Redshrike)
+	- Links:
+		- https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles
+		- https://opengameart.org/content/lpc-barbarian-sprite-base
+		- https://opengameart.org/content/lpc-muscular-swing-animation
+		- https://opengameart.org/content/lpc-muscular-hurt-animation
+		- https://opengameart.org/content/lpc-jump-expanded
+		- https://opengameart.org/content/lpc-revised-character-basics
+		- https://opengameart.org/content/lpc-be-seated
+		- https://opengameart.org/content/lpc-jump-expanded
+		- https://opengameart.org/content/lpc-character-bases
+		- https://opengameart.org/content/lpc-male-jumping-animation-by-durrani
+
+head/heads/human/male/walk.png
+	- Note: original head by Redshrike, tweaks by BenCreating, modular version by bluecarrot16
+	- Licenses:
+		- OGA-BY 3.0
+		- CC-BY-SA 3.0
+		- GPL 3.0
+	- Authors:
+		- bluecarrot16
+		- Benjamin K. Smith (BenCreating)
+		- Stephen Challener (Redshrike)
+	- Links:
+		- https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles
+		- https://opengameart.org/content/lpc-character-bases
+
+shadow/adult/walk/shadow.png
+	- Licenses:
+		- CC0
+	- Authors:
+		- drjamgo@hotmail.com
+	- Links:
+		- https://opengameart.org/content/shadow-for-lpc-sprite
+
+eyes/eyebrows/thick/adult/walk/black.png
+	- Licenses:
+		- OGA-BY 3.0
+	- Authors:
+		- ElizaWy
+	- Links:
+		- https://github.com/ElizaWy/LPC/tree/main/Characters/Hair
+		- https://opengameart.org/content/lpc-expanded-sit-run-jump-more
+
+head/nose/button/adult/walk.png
+	- Licenses:
+		- GPL 3.0
+		- CC-BY-SA 3.0
+	- Authors:
+		- Thane Brimhall (pennomi)
+		- laetissima
+		- Matthew Krohn (makrohn)
+	- Links:
+		- https://opengameart.org/content/lpc-base-character-expressions
+
+beards/beard/basic/walk/black.png
+	- Note: Original by Nemisys, repositioning by JaidynReiman.
+	- Licenses:
+		- CC-BY-SA 3.0
+		- GPL 3.0
+	- Authors:
+		- JaidynReiman
+		- Carlo Enrico Victoria (Nemisys)
+	- Links:
+		- https://opengameart.org/content/lpc-white-beard
+
+hair/idol/adult/walk/black.png
+	- Note: Original CC0 by Thecilekli. Edited by bluecarrot16 and ElizaWy. Animated by ElizaWy.
+	- Licenses:
+		- CC0
+	- Authors:
+		- thecilekli
+		- bluecarrot16
+	- Links:
+		- https://opengameart.org/content/lpc-korean-idol-hairstyle-male-with-12-colors
+		- https://opengameart.org/content/lpc-hair
+		- https://github.com/ElizaWy/LPC/tree/main/Characters/Hair
+		- https://opengameart.org/content/lpc-expanded-sit-run-jump-more
+
+hat/magic/wizard/belt/adult/walk/base_brown.png
+	- Note: Original Wizard Hat and Recolors by bigbeargames and reemax; split into separate layers with new recolors by JaidynReiman
+	- Licenses:
+		- CC-BY-SA 3.0
+		- GPL 2.0
+		- GPL 3.0
+	- Authors:
+		- Michael Whitlock (bigbeargames)
+		- Tuomo Untinen (reemax)
+		- JaidynReiman
+	- Links:
+		- https://opengameart.org/content/lpc-items-and-game-effects
+		- https://opengameart.org/content/lpc-pointed-hats
+		- https://opengameart.org/content/lpc-expanded-hats-facial-helmets
+
+hat/magic/wizard/buckle/adult/walk/gold.png
+	- Note: Original Wizard Hat and Recolors by bigbeargames and reemax; split into separate layers with new recolors by JaidynReiman
+	- Licenses:
+		- CC-BY-SA 3.0
+		- GPL 2.0
+		- GPL 3.0
+	- Authors:
+		- Michael Whitlock (bigbeargames)
+		- Tuomo Untinen (reemax)
+		- JaidynReiman
+	- Links:
+		- https://opengameart.org/content/lpc-items-and-game-effects
+		- https://opengameart.org/content/lpc-pointed-hats
+		- https://opengameart.org/content/lpc-expanded-hats-facial-helmets
+
+hat/magic/wizard/base/adult/walk/forest.png
+	- Note: Original Wizard Hat and Recolors by bigbeargames and reemax; split into separate layers with new recolors by JaidynReiman
+	- Licenses:
+		- CC-BY-SA 3.0
+		- GPL 2.0
+		- GPL 3.0
+	- Authors:
+		- Michael Whitlock (bigbeargames)
+		- Tuomo Untinen (reemax)
+		- JaidynReiman
+	- Links:
+		- https://opengameart.org/content/lpc-items-and-game-effects
+		- https://opengameart.org/content/lpc-pointed-hats
+		- https://opengameart.org/content/lpc-expanded-hats-facial-helmets
+
+bauldron/male/walk/brown.png
+	- Licenses:
+		- GPL 2.0
+		- GPL 3.0
+		- OGA-BY 3.0
+		- CC-BY-SA 3.0
+	- Authors:
+		- Nila122
+	- Links:
+		- https://opengameart.org/content/more-lpc-clothes-and-hair
+
+arms/gloves/male/walk/brown.png
+	- Note: metal gloves by wulax, recolors by bigbeargames, adapted to v3 bases by bluecarrot16, added to expanded animations by JaidynReiman
+	- Licenses:
+		- OGA-BY 3.0
+		- CC-BY-SA 3.0
+		- GPL 3.0
+	- Authors:
+		- Michael Whitlock (bigbeargames)
+		- Matthew Krohn (makrohn)
+		- Johannes Sjölund (wulax)
+		- bluecarrot16
+		- JaidynReiman
+	- Links:
+		- https://opengameart.org/content/lpc-medieval-fantasy-character-sprites
+		- http://opengameart.org/content/lpc-clothing-updates
+
+cape/solid/female/walk/brown.png
+	- Licenses:
+		- OGA-BY 3.0
+		- CC-BY-SA 3.0
+		- GPL 3.0
+	- Authors:
+		- bluecarrot16
+		- JaidynReiman
+	- Links:
+		- https://opengameart.org/content/lpc-curly-hair-elven-ears-white-cape-with-blue-trim-and-more
+		- https://opengameart.org/content/lpc-roman-armor
+		- http://opengameart.org/content/lpc-clothing-updates
+
+cape/solid_behind/walk/brown.png
+	- Licenses:
+		- OGA-BY 3.0
+		- CC-BY-SA 3.0
+		- GPL 3.0
+	- Authors:
+		- Nila122
+		- JaidynReiman
+	- Links:
+		- https://opengameart.org/content/lpc-curly-hair-elven-ears-white-cape-with-blue-trim-and-more
+		- https://opengameart.org/content/lpc-roman-armor
+
+legs/pantaloons/muscular/walk.png
+	- Note: Original bases by Redshrike, thrust/shoot bases by Wulax, Original Pantaloons by Nila122, climb/jump/run/sit/emotes/revised combat by JaidynReiman
+	- Licenses:
+		- OGA-BY 3.0
+		- GPL 2.0
+		- GPL 3.0
+		- CC-BY-SA 3.0
+	- Authors:
+		- Nila122
+		- JaidynReiman
+		- Johannes Sjölund (wulax)
+		- Stephen Challener (Redshrike)
+	- Links:
+		- https://opengameart.org/content/lpc-pirates
+		- https://opengameart.org/content/more-lpc-clothes-and-hair
+		- https://opengameart.org/content/lpc-expanded-pants
+
+feet/boots/revised/male/walk/black.png
+	- Note: original overalls and boots by ElizaWy, base animations adapted from v3 overalls by bluecarrot16, boots by JaidynReiman
+	- Licenses:
+		- OGA-BY 3.0
+		- GPL 3.0
+	- Authors:
+		- JaidynReiman
+		- ElizaWy
+		- Bluecarrot16
+		- Stephen Challener (Redshrike)
+		- Johannes Sjölund (wulax)
+	- Links:
+		- https://github.com/ElizaWy/LPC/tree/main/Characters/Clothing
+		- https://opengameart.org/content/lpc-expanded-socks-shoes
+
