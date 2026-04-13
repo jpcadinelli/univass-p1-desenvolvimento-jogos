@@ -41,15 +41,13 @@ O jogo possui dois tipos principais de itens coletáveis:
 As moedas coletadas são contabilizadas ao longo das fases e contribuem para o resultado final obtido pelo jogador.
 
 ### Obstáculos e dano
-Durante as fases, o jogador deve lidar com diferentes ameaças. Os **espinhos** causam perda de vida e lançam o personagem para cima ao serem tocados. Além disso, há **inimigos** que atacam arremessando suas armas. O jogador perde vida tanto ao ser atingido pela arma quanto ao encostar lateralmente nos inimigos.
-
-Como mecânica de combate, o inimigo pode ser derrotado caso o jogador o atinja **por cima**, pulando sobre ele.
+Durante as fases, o jogador deve lidar com diferentes ameaças. Os **espinhos** causam perda de vida e lançam o personagem para cima ao serem tocados. Além disso, há **meteoros** que caem do céu. O jogador perde vida ao ser atingido pelo meteoro.
 
 ### Interação com o cenário
-Algumas partes do mapa exigem interação para liberar a progressão. Entre essas interações, destaca-se a **alavanca**, que precisa ser acionada pelo jogador ao pular sobre ela. Após ser ativada, uma **plataforma de passagem** é liberada, permitindo a continuidade da fase.
+Algumas partes do mapa exigem interação para liberar a progressão. Entre essas interações, destaca-se as **gemas**, que precisa ser coletada pelo jogador ao passar sobre ela. Após ser coletada, um **portal** é liberado, permitindo a continuidade da fase.
 
 ### Progressão e avanço de fases
-O jogo conta com uma **fase inicial de tutorial**, responsável por introduzir o jogador às mecânicas básicas, seguida por **três fases principais**. O avanço entre as fases ocorre quando o jogador alcança a **porta localizada ao final do mapa**, representando a conclusão do objetivo daquela etapa.
+O jogo conta com uma **fase inicial de tutorial**, responsável por introduzir o jogador às mecânicas básicas, seguida por **três fases principais**. O avanço entre as fases ocorre quando o jogador alcança o **portal localizada ao final do mapa**, representando a conclusão do objetivo daquela etapa.
 
 Caso o jogador caia para fora do mapa, ele não perde imediatamente a partida, mas retorna ao **início da fase atual**, funcionando como uma penalização de reposicionamento.
 
@@ -59,11 +57,8 @@ O sistema de checkpoint está definido de forma simples: o **início de cada fas
 ### Sistema de pontuação
 O jogo possui um sistema de pontuação calculado com base no desempenho do jogador. Ao final das fases, são considerados os seguintes elementos:
 
-- **tempo gasto em cada fase**;
 - **quantidade de moedas coletadas**;
 - **quantidade de vida restante**.
-
-O tempo é contabilizado separadamente em cada fase e incorporado ao cálculo de pontuação ao término da etapa, compondo o desempenho final do jogador ao longo da experiência.
 
 ## 4. Controles
 
@@ -79,12 +74,9 @@ Os controles do jogo foram definidos de forma simples e intuitiva, permitindo ao
 ### Salto duplo
 O jogo também conta com a mecânica de **salto duplo**, permitindo ao jogador executar um segundo salto enquanto ainda estiver no ar. Esse recurso é fundamental para alcançar plataformas mais altas, desviar de obstáculos e superar determinados trechos das fases.
 
-### Interações durante a fase
-Algumas interações com o cenário ocorrem por meio do próprio movimento do personagem. Um exemplo disso é a **alavanca**, que deve ser acionada ao ser atingida por cima, fazendo com que o jogador precise saltar sobre ela para liberar a passagem na fase.
-
 ## 5. Sistema de Pontuação
 
-O sistema de pontuação do jogo foi planejado para avaliar o desempenho do jogador de forma equilibrada, considerando três aspectos principais da partida: **coleta de moedas**, **vida restante** e **tempo de conclusão da fase**. Dessa forma, a pontuação final não depende apenas da velocidade, mas também da capacidade de exploração e sobrevivência ao longo do jogo.
+O sistema de pontuação do jogo foi planejado para avaliar o desempenho do jogador de forma equilibrada, considerando dois aspectos principais da partida: **coleta de moedas**, **vida restante**. Dessa forma, a pontuação final não depende apenas da velocidade, mas também da capacidade de exploração e sobrevivência ao longo do jogo.
 
 ### Critérios de pontuação
 
@@ -92,13 +84,12 @@ Ao final de cada fase, a pontuação do jogador é calculada com base nos seguin
 
 - **Moedas coletadas**: recompensam a exploração do cenário;
 - **Vida restante**: valoriza a capacidade de superar os desafios com menor dano;
-- **Tempo da fase**: concede bônus de desempenho conforme a rapidez na conclusão.
 
 ### Proposta de cálculo
 
 Para manter o sistema balanceado, a pontuação pode ser calculada da seguinte forma:
 
-**Pontuação da fase = (moedas coletadas × 10) + (vidas restantes × 50) + bônus de tempo**
+**Pontuação da fase = (moedas coletadas × 10) + (vidas restantes × 50)**
 
 #### 1. Pontuação por moedas
 Cada moeda coletada concede:
@@ -114,32 +105,18 @@ Cada ponto de vida restante ao final da fase concede:
 
 Como o jogador pode terminar a fase com até 5 pontos de vida, esse critério recompensa quem joga com maior precisão e evita danos ao longo do percurso.
 
-#### 3. Bônus por tempo
-O tempo não reduz a pontuação do jogador. Em vez disso, ele gera um bônus de desempenho com base na rapidez de conclusão da fase.
-
-Sugestão de faixas:
-
-- **Até 1 minuto**: 100 pontos de bônus
-- **Até 2 minutos**: 70 pontos de bônus
-- **Até 3 minutos**: 40 pontos de bônus
-- **Acima de 3 minutos**: 20 pontos de bônus
-
-Esse modelo permite premiar jogadores mais rápidos sem prejudicar excessivamente aqueles que preferem avançar com mais cautela.
-
 ### Exemplo de cálculo
 Se um jogador terminar uma fase com:
 
 - **12 moedas coletadas**
 - **4 pontos de vida restantes**
-- **tempo de 1 minuto e 45 segundos**
 
 A pontuação será:
 
 - Moedas: 12 × 10 = 120 pontos
 - Vida restante: 4 × 50 = 200 pontos
-- Bônus de tempo: 70 pontos
 
-**Pontuação total da fase = 390 pontos**
+**Pontuação total da fase = 320 pontos**
 
 ### Pontuação final
 A pontuação final do jogo será obtida pela **soma da pontuação das três fases principais**, permitindo uma avaliação geral do desempenho do jogador ao longo da experiência.
@@ -149,19 +126,12 @@ A distribuição proposta busca equilíbrio entre diferentes estilos de jogo:
 
 - jogadores exploradores são recompensados pelas moedas;
 - jogadores mais cuidadosos são recompensados pela vida restante;
-- jogadores mais rápidos recebem bônus por eficiência.
 
 Com isso, o sistema evita privilegiar apenas um único fator e incentiva uma experiência mais completa dentro da proposta do jogo.
 
 ## 6. Ambientação das Fases
 
-As fases do jogo foram planejadas para representar a progressão da degradação causada pela poluição no mundo do Cristal da Vida.
-
-- **Fase 1 – Floresta em Desequilíbrio:** apresenta uma região natural ainda parcialmente preservada, mas já marcada por sinais de contaminação, como vegetação enfraquecida, céu acinzentado e pequenas áreas degradadas.
-
-- **Fase 2 – Ruínas da Natureza Corrompida:** mostra uma área mais afetada pela poluição, com árvores secas, rios contaminados, estruturas antigas degradadas e atmosfera mais sombria, reforçando o aumento da dificuldade e do perigo.
-
-- **Fase 3 – Núcleo da Poluição:** representa o estágio mais crítico da destruição ambiental, com cenário devastado, céu escuro, solo corrompido e poucos vestígios de vida, simbolizando o confronto final contra o colapso da natureza.
+As fases do jogo foram planejadas para representar a degradação causada pela poluição no mundo do Cristal da Vida. 
 
 ## 7. Autores
 
@@ -170,3 +140,4 @@ As fases do jogo foram planejadas para representar a progressão da degradação
 | [João Pedro Coelho Cadinelli dos Santos](https://github.com/jpcadinelli) | 202313598 | [@jpcadinelli](https://github.com/jpcadinelli) |
 | [Julio Fernando Martins Leite](https://github.com/devjuliomartins) | 202310535 | [@devjuliomartins](https://github.com/devjuliomartins) |
 | [Pedro Leal Primo Teixeira Coelho](https://github.com/pedro-coelho1604) | 202310631 | [@pedro-coelho1604](https://github.com/pedro-coelho1604) |
+| [Heloisa Coelho Cabral](https://github.com/devheloisacabral) | 202311029 | [@devheloisacabral](https://github.com/devheloisacabral) |
