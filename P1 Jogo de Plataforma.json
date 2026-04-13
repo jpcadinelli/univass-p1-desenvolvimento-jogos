@@ -1421,8 +1421,15 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Flat/c49fc26e46b89aa8a5d48a1823fc292cffc6b610713ff3a3fff796e151412a59_Left-Arrow.png",
           "name": "Left-Arrow.png"
         }
+      },
+      {
+        "file": "assets/pergaminho.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/pergaminho.png",
+        "smoothed": true,
+        "userAdded": false
       }
-      
     ]
   },
   "objects": [
@@ -14412,7 +14419,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.21446078431372673,
+        "zoomFactor": 0.5250860067782526,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -14487,8 +14494,8 @@
           "name": "Botao_Esquerda",
           "persistentUuid": "06cb6cd4-16a7-422d-aa6d-e04a70c90620",
           "width": 141,
-          "x": 1445,
-          "y": 729,
+          "x": 1395,
+          "y": 771,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -14504,8 +14511,8 @@
           "name": "Botao_DIreita",
           "persistentUuid": "68b79272-1be0-4742-ad0e-3474f07f6b7c",
           "width": 161,
-          "x": 1619,
-          "y": 727,
+          "x": 1572,
+          "y": 772,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -14588,8 +14595,8 @@
           "name": "Voltar",
           "persistentUuid": "051d0860-fd13-4878-a3e0-a94bcaba4145",
           "width": 0,
-          "x": 138,
-          "y": 74,
+          "x": 1643,
+          "y": 80,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -14643,8 +14650,9 @@
           "height": 32,
           "leftMargin": 0,
           "name": "Pergaminho",
+          "persistentUuid": "c3ed2013-d498-4873-8fa4-5a25ffe6267f",
           "rightMargin": 0,
-          "texture": "pergaminho.png",
+          "texture": "assets/pergaminho.png",
           "tiled": false,
           "topMargin": 0,
           "type": "PanelSpriteObject::PanelSprite",
@@ -15455,7 +15463,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Movimento",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -15947,7 +15954,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Animação de Movimento",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -16178,7 +16184,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Colisão com Espinho",
+          "name": "Perder Vida",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -16187,24 +16193,37 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CollisionNP"
+                    "value": "NumberVariable"
                   },
                   "parameters": [
-                    "Personagem",
-                    "Espinho",
-                    "",
-                    "",
+                    "Vida",
+                    "<=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "SkullGameOverDialog",
                     ""
                   ]
                 },
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Once"
+                    "value": "SetCenter"
                   },
-                  "parameters": []
-                }
-              ],
-              "actions": [
+                  "parameters": [
+                    "SkullGameOverDialog",
+                    "=",
+                    "CameraCenterX()",
+                    "=",
+                    "CameraCenterY()"
+                  ]
+                },
                 {
                   "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -16213,39 +16232,16 @@
                     "Personagem",
                     "Animation",
                     "=",
-                    "\"Hit\""
+                    "\"Death\""
                   ]
                 },
                 {
                   "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Vida",
-                    "-",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlatformBehavior::Gravity"
+                    "value": "Delete"
                   },
                   "parameters": [
                     "Personagem",
-                    "PlatformerObject",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AddForceAL"
-                  },
-                  "parameters": [
-                    "Personagem",
-                    "RandomFloatInRange(60,120)",
-                    "-1500",
-                    "1"
+                    ""
                   ]
                 },
                 {
@@ -16253,66 +16249,53 @@
                     "value": "Wait"
                   },
                   "parameters": [
-                    "0.25"
+                    "3"
                   ]
                 },
                 {
                   "type": {
-                    "value": "ClearForces"
+                    "value": "Scene"
                   },
                   "parameters": [
-                    "Personagem"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlatformBehavior::Gravity"
-                  },
-                  "parameters": [
-                    "Personagem",
-                    "PlatformerObject",
-                    "=",
-                    "1000"
+                    "",
+                    "\"Menu\"",
+                    ""
                   ]
                 }
-              ],
+              ]
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Colisão com Espinho",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "NumberVariable"
+                        "value": "CollisionNP"
                       },
                       "parameters": [
-                        "Vida",
-                        "<=",
-                        "0"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Show"
-                      },
-                      "parameters": [
-                        "SkullGameOverDialog",
+                        "Personagem",
+                        "Espinho",
+                        "",
+                        "",
                         ""
                       ]
                     },
                     {
                       "type": {
-                        "value": "SetCenter"
+                        "value": "BuiltinCommonInstructions::Once"
                       },
-                      "parameters": [
-                        "SkullGameOverDialog",
-                        "=",
-                        "CameraCenterX()",
-                        "=",
-                        "CameraCenterY()"
-                      ]
-                    },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
                     {
                       "type": {
                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -16321,16 +16304,39 @@
                         "Personagem",
                         "Animation",
                         "=",
-                        "\"Death\""
+                        "\"Hit\""
                       ]
                     },
                     {
                       "type": {
-                        "value": "Delete"
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Vida",
+                        "-",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::Gravity"
                       },
                       "parameters": [
                         "Personagem",
-                        ""
+                        "PlatformerObject",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AddForceAL"
+                      },
+                      "parameters": [
+                        "Personagem",
+                        "RandomFloatInRange(60,120)",
+                        "-1500",
+                        "1"
                       ]
                     },
                     {
@@ -16338,73 +16344,102 @@
                         "value": "Wait"
                       },
                       "parameters": [
-                        "3"
+                        "0.25"
                       ]
                     },
                     {
                       "type": {
-                        "value": "Scene"
+                        "value": "ClearForces"
                       },
                       "parameters": [
-                        "",
-                        "\"Menu\"",
-                        ""
+                        "Personagem"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::Gravity"
+                      },
+                      "parameters": [
+                        "Personagem",
+                        "PlatformerObject",
+                        "=",
+                        "1000"
                       ]
                     }
                   ]
                 }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Queda",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
+              ],
+              "parameters": []
+            },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Queda",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
                 {
-                  "type": {
-                    "value": "PosY"
-                  },
-                  "parameters": [
-                    "Personagem",
-                    ">",
-                    "1500"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PosY"
+                      },
+                      "parameters": [
+                        "Personagem",
+                        ">",
+                        "1500"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Vida",
+                        "-",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "Vida",
+                            ">",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetXY"
+                          },
+                          "parameters": [
+                            "Personagem",
+                            "=",
+                            "100",
+                            "=",
+                            "800"
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 }
               ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Vida",
-                    "-",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetXY"
-                  },
-                  "parameters": [
-                    "Personagem",
-                    "=",
-                    "100",
-                    "=",
-                    "800"
-                  ]
-                }
-              ]
+              "parameters": []
             }
           ],
           "parameters": []
