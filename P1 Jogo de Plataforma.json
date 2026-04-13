@@ -6593,6 +6593,88 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "a94ac499849b357caf2f21ecb21ed5efd21777a622502e445abc4d62b098058b",
+      "name": "Gold_Placar",
+      "persistentUuid": "6951a49d-64de-4e93-85b3-0d03777d2dbd",
+      "preScale": 3,
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Gold Coin.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 14,
+                        "y": 2
+                      },
+                      {
+                        "x": 14,
+                        "y": 14
+                      },
+                      {
+                        "x": 2,
+                        "y": 14
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "54d86c7d46104e19c9a7e86e173b71bce9592b476e156846c53f11be91039afd",
+      "name": "Placar_Pontuacao",
+      "persistentUuid": "67abdd1c-16f1-4df8-845f-bb3c7e1df259",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Text",
+        "opacity": 255,
+        "scale": 3,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "assets/NotJamOldStyle11.fnt",
+        "textureAtlasResourceName": "assets/NotJamOldStyle11.png",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -6638,6 +6720,9 @@
         "objectName": "Gold_Coin"
       },
       {
+        "objectName": "Gold_Placar"
+      },
+      {
         "objectName": "Gold_Key"
       },
       {
@@ -6681,6 +6766,9 @@
       },
       {
         "objectName": "bg_chao"
+      },
+      {
+        "objectName": "Placar_Pontuacao"
       }
     ]
   },
@@ -16037,7 +16125,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.14890670595874456,
+        "zoomFactor": 0.5610952083582146,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -24048,6 +24136,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     },
@@ -24073,7 +24165,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5800155239904912,
+        "zoomFactor": 1.2031142879249406,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -28540,7 +28632,7 @@
           "name": "Gold_Coin",
           "persistentUuid": "572aeec5-a7ca-4902-b6bd-16e3bb62efea",
           "width": 32,
-          "x": 192,
+          "x": 224,
           "y": 384,
           "zOrder": 18,
           "numberProperties": [],
@@ -29297,6 +29389,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     },
@@ -36757,6 +36853,10 @@
           "type": "ScalableCapability::ScalableBehavior"
         },
         {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
           "name": "TimedBackAndForthMirroredMovement",
           "type": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement"
         }
@@ -39613,6 +39713,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     },
@@ -39750,6 +39854,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     }
@@ -41391,6 +41499,74 @@
                   },
                   "parameters": [
                     "SkullGameOverDialog"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Placar de Moedas",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Gold_Placar",
+                    "441",
+                    "28",
+                    "\"HUD\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Placar_Pontuacao",
+                    "490",
+                    "38",
+                    "\"HUD\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Placar_Pontuacao",
+                    "Text",
+                    "=",
+                    "\"x\" + Moeda"
                   ]
                 }
               ]
