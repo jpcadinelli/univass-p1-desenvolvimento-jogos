@@ -1286,6 +1286,117 @@
         "name": "assets/tecla-d.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "pergaminho.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pergaminho.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "pergaminho.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "pergaminho.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "pergaminho2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pergaminho2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NotJamSignature21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/NotJamSignature21.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Bitmap texts/Not Jam bitmap fonts/8f396e075a7e49c27c78bcc3b8e7efd5af240a426534013da57e92b740562854_NotJamSignature21.png",
+          "name": "NotJamSignature21.png"
+        }
+      },
+      {
+        "file": "assets/NotJamSignature21.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "assets/NotJamSignature21.fnt",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Bitmap texts/Not Jam bitmap fonts/3e9cd4ea0d34df876b085fbafea17f0546ec2194ca3745df35e2846ff5eb4fcb_NotJamSignature21.fnt",
+          "name": "NotJamSignature21.fnt"
+        }
+      },
+      {
+        "file": "5f493b1a68ecc70004ae7110 (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "5f493b1a68ecc70004ae7110 (1).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Right arrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Right arrow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Casual Buttons Pack/cf447ec45269c88d614a7e3964832435eaa938b7923ea542752f5b0b8bffdc28_Right arrow.png",
+          "name": "Right arrow.png"
+        }
+      },
+      {
+        "file": "assets/Left arrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Left arrow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Casual Buttons Pack/18324e1b75ef7a340433b25a131f8597d3005d74a158a7d90a96d52bc1011241_Left arrow.png",
+          "name": "Left arrow.png"
+        }
+      },
+      {
+        "file": "assets/Left arrow2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Left arrow2.png\"}",
+        "name": "Left arrow",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Right-Arrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Right-Arrow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Flat/91e09053deb6974f426debf11cf77b6ca72c64dfaffa8c4887732df66cde2c71_Right-Arrow.png",
+          "name": "Right-Arrow.png"
+        }
+      },
+      {
+        "file": "assets/Left-Arrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Left-Arrow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Flat/c49fc26e46b89aa8a5d48a1823fc292cffc6b610713ff3a3fff796e151412a59_Left-Arrow.png",
+          "name": "Left-Arrow.png"
+        }
       }
     ]
   },
@@ -4820,6 +4931,32 @@
               "parameters": [
                 "",
                 "\"Controles\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "Historia",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Historia\"",
                 ""
               ]
             }
@@ -19136,6 +19273,1030 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        }
+      ]
+    },
+    {
+      "b": 255,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Historia",
+      "name": "Historia",
+      "r": 247,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 249,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.21446078431372673,
+        "windowMask": false,
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "name": "IndiceHistoria",
+          "type": "number",
+          "value": 1
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1151,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Background",
+          "persistentUuid": "69d7d46c-6846-4a87-8be4-06e750be5f7b",
+          "width": 2079,
+          "x": -79,
+          "y": -39,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 828,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Pergaminho",
+          "persistentUuid": "162dba18-f343-4eb1-9f4e-26768812a42a",
+          "width": 1912,
+          "x": 56,
+          "y": 192,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 42,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Historia",
+          "persistentUuid": "65d6a21a-e075-447b-b967-2a9f17ad718c",
+          "width": 1602,
+          "x": 216,
+          "y": 329,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 10,
+          "height": 135,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Botao_Esquerda",
+          "persistentUuid": "06cb6cd4-16a7-422d-aa6d-e04a70c90620",
+          "width": 141,
+          "x": 1445,
+          "y": 729,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 134,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Botao_DIreita",
+          "persistentUuid": "68b79272-1be0-4742-ad0e-3474f07f6b7c",
+          "width": 161,
+          "x": 1619,
+          "y": 727,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 63,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Historia2",
+          "persistentUuid": "49f6cf4e-715d-4f3a-9d67-9dd0ba6e74db",
+          "width": 1595,
+          "x": 227,
+          "y": 348,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 63,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Historia3",
+          "persistentUuid": "529d8f6d-9f18-4112-89cc-c65a07fee97e",
+          "width": 1539,
+          "x": 222,
+          "y": 348,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 63,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Historia4",
+          "persistentUuid": "6df2b2dd-ce5f-4dcc-bbdd-7ef0956a9185",
+          "width": 1589,
+          "x": 202,
+          "y": 332,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 63,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Historia5",
+          "persistentUuid": "e1ce7361-980a-42d4-8470-71bc81c5419d",
+          "width": 1583,
+          "x": 193,
+          "y": 330,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Voltar",
+          "persistentUuid": "051d0860-fd13-4878-a3e0-a94bcaba4145",
+          "width": 0,
+          "x": 138,
+          "y": 74,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "fe58defcf508279eb83802ec7d49c91febab9ebf9b63284e70eb08551c6d1fb4",
+          "name": "Historia",
+          "persistentUuid": "9bc84abd-c01e-4360-8fbc-832ec2233ec9",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Em um mundo que antes vivia em equilibrio com a natureza, a poluicao comecou a se espalhar por florestas, rios e montanhas, consumindo a energia vital que mantinha todas as formas de vida em harmonia. Com o avanco dessa destruicao, o Cristal da Vida, uma reliquia sagrada responsavel por sustentar o equilibrio natural do mundo, foi rompido, espalhando seus fragmentos por diferentes regioes agora corrompidas.",
+            "opacity": 255,
+            "scale": 3,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets/NotJamSignature21.fnt",
+            "textureAtlasResourceName": "assets/NotJamSignature21.png",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "fe58defcf508279eb83802ec7d49c91febab9ebf9b63284e70eb08551c6d1fb4",
+          "name": "Historia2",
+          "persistentUuid": "0d65c8a5-6110-4fba-8e5b-7c92fd648288",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Sem a protecao do cristal, a natureza perdeu sua estabilidade. Criaturas que antes coexistiam em paz com o ambiente passaram a agir de forma hostil, transformadas pela contaminacao e pela ausencia da energia sagrada. Alem disso, os caminhos naturais foram afetados pela degradacao, fazendo surgir perigos e obstaculos ao longo da jornada, como areas instaveis, espinhos e passagens bloqueadas.",
+            "opacity": 255,
+            "scale": 3,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets/NotJamSignature21.fnt",
+            "textureAtlasResourceName": "assets/NotJamSignature21.png",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "Pergaminho",
+          "rightMargin": 0,
+          "texture": "pergaminho.png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "fe58defcf508279eb83802ec7d49c91febab9ebf9b63284e70eb08551c6d1fb4",
+          "name": "Historia3",
+          "persistentUuid": "a7f0a3f6-5be4-44a6-a603-a547c872698d",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Diante desse cenario, o protagonista parte em uma missao para recuperar os fragmentos do Cristal da Vida e devolve-los a natureza. Durante a aventura, ele deve atravessar regioes tomadas pela poluicao e reativar antigos mecanismos esquecidos, como alavancas que liberam plataformas e restabelecem a passagem por areas bloqueadas.",
+            "opacity": 255,
+            "scale": 3,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets/NotJamSignature21.fnt",
+            "textureAtlasResourceName": "assets/NotJamSignature21.png",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "fe58defcf508279eb83802ec7d49c91febab9ebf9b63284e70eb08551c6d1fb4",
+          "name": "Historia4",
+          "persistentUuid": "867284c9-9dd0-4dd9-8f80-ab02e2a04c12",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Nesta jornada, o heroi encontra dois tipos de itens fundamentais: as macas, que simbolizam a força regeneradora da propria natureza e ajudam a restaurar sua vitalidade, e as moedas, que representam tesouros perdidos nas areas corrompidas. Diferente da energia vital, as moedas servem como um registro das conquistas do heroi, sendo acumuladas para compor sua pontuacao final ao concluir o objetivo de salvar o mundo.",
+            "opacity": 255,
+            "scale": 3,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets/NotJamSignature21.fnt",
+            "textureAtlasResourceName": "assets/NotJamSignature21.png",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "d51e51b54699cc452f0a31d1bae5e3816c3a3017ebf3e2ddb76cbcf2fbe9b698",
+          "name": "Botao_DIreita",
+          "persistentUuid": "7c417208-183f-45f3-9180-44b7010f1776",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Right-Arrow.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 14,
+                            "y": 0
+                          },
+                          {
+                            "x": 14,
+                            "y": 14
+                          },
+                          {
+                            "x": 0,
+                            "y": 14
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "13a9cef806e970f1b9426f37cf41e27eb70fffedac02cd4736c023201afb7011",
+          "name": "Botao_Esquerda",
+          "persistentUuid": "43fd9757-e956-4323-af17-a5216b80215a",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Left-Arrow.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 14,
+                            "y": 0
+                          },
+                          {
+                            "x": 14,
+                            "y": 14
+                          },
+                          {
+                            "x": 0,
+                            "y": 14
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "fe58defcf508279eb83802ec7d49c91febab9ebf9b63284e70eb08551c6d1fb4",
+          "name": "Historia5",
+          "persistentUuid": "a3eb3b8d-727a-40cd-803e-dd1f29e8d145",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "O momento de maior importancia ocorre ao final de cada regiao. Antes de atravessar a porta que leva ao proximo desafio, o heroi deve coletar uma porcao concentrada da energia do Cristal. Esse ato simboliza a purificacao daquela area e garante ao protagonista a força necessaria para avançar. Assim, cada fase superada representa um passo crucial na reconstrucao do Cristal da Vida e na esperanca de devolver ao mundo a pureza que a poluicao quase destruiu por completo.",
+            "opacity": 255,
+            "scale": 3,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets/NotJamSignature21.fnt",
+            "textureAtlasResourceName": "assets/NotJamSignature21.png",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Historia"
+          },
+          {
+            "objectName": "Historia2"
+          },
+          {
+            "objectName": "Historia3"
+          },
+          {
+            "objectName": "Historia4"
+          },
+          {
+            "objectName": "Historia5"
+          },
+          {
+            "objectName": "Pergaminho"
+          },
+          {
+            "objectName": "Botao_Esquerda"
+          },
+          {
+            "objectName": "Botao_DIreita"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "IndiceHistoria",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Botao_Esquerda"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Historia2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Historia3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Historia4"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Historia5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Historia",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "IndiceHistoria",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Historia"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Historia3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Historia4"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Historia5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Botao_Esquerda",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Historia2",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "IndiceHistoria",
+                "=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Historia"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Historia2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Historia4"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Historia5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Historia3",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "IndiceHistoria",
+                "=",
+                "4"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Historia"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Historia2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Historia3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Historia5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Botao_DIreita",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Historia4",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "IndiceHistoria",
+                "=",
+                "5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Historia"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Historia2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Historia3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Historia4"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Botao_DIreita"
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Historia5",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Botao_DIreita",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "IndiceHistoria",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Botao_Esquerda",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "IndiceHistoria",
+                "-",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "Voltar",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Menu\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     }
