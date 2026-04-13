@@ -1945,6 +1945,18 @@
         "name": "assets/background/poluicao/backgroung-poluicao-perto.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/tiled_black space.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_black space.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Backgrounds/82e24c48618660952ceb6cede5c9917ceeb4371c9e971f4a49fb43689d045d89_tiled_black space.png",
+          "name": "tiled_black space.png"
+        }
       }
     ]
   },
@@ -8760,7 +8772,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.1757638449180548,
+        "zoomFactor": 0.5800155239904913,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -24165,7 +24177,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.2031142879249406,
+        "zoomFactor": 0.5800155239904913,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -39723,8 +39735,8 @@
     {
       "b": 255,
       "disableInputWhenNotFocused": true,
-      "mangledName": "TelaFinal",
-      "name": "TelaFinal",
+      "mangledName": "Level_45final",
+      "name": "Level-final",
       "r": 247,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -39742,17 +39754,104 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3645833333333333,
+        "zoomFactor": 0.4448515998886649,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
-      "objects": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1499,
+          "keepRatio": true,
+          "layer": "",
+          "name": "black_space",
+          "persistentUuid": "0123e316-35b6-4358-929d-a3453f1d5145",
+          "width": 3289,
+          "x": -601,
+          "y": -163,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 286,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Ruby",
+          "persistentUuid": "b1bfd45a-5a57-4def-943d-bda2495c7bbe",
+          "width": 246,
+          "x": 916,
+          "y": 287,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 313,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Emerald_Gem",
+          "persistentUuid": "9c012b44-a939-48f3-aaf3-2904c52e91b7",
+          "width": 370,
+          "x": 495,
+          "y": 366,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 261,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Sapphire_Gem",
+          "persistentUuid": "3c0ce81f-3c6f-44cf-86b5-c86a0bfea517",
+          "width": 371,
+          "x": 1238,
+          "y": 395,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "2d701679df0e067e63e657f3a7de8b0c076c1c0db19e7c6070c186b28a611df2",
+          "height": 256,
+          "name": "black_space",
+          "persistentUuid": "a37908c2-94b4-4e26-937b-2dad86ea547a",
+          "texture": "tiled_black space.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 256,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "black_space"
+          }
+        ]
       },
       "events": [],
       "layers": [
