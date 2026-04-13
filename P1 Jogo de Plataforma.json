@@ -1921,6 +1921,30 @@
         "name": "assets/itens/meteoro/meteoro-8.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/background/poluicao/backgroung-poluicao-ceu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/background/poluicao/backgroung-poluicao-ceu.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/background/poluicao/backgroung-poluicao-montanhas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/background/poluicao/backgroung-poluicao-montanhas.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/background/poluicao/backgroung-poluicao-perto.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/background/poluicao/backgroung-poluicao-perto.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -6533,6 +6557,42 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "bg_ceu",
+      "persistentUuid": "76d5a5a1-e473-47cf-abe7-72da3aa3a28e",
+      "texture": "assets/background/poluicao/backgroung-poluicao-ceu.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "bg_montanha",
+      "persistentUuid": "65b904a6-b557-465e-8426-75456d151e6f",
+      "texture": "assets/background/poluicao/backgroung-poluicao-montanhas.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "bg_chao",
+      "persistentUuid": "c5371a98-af52-47d2-9e9c-21bfd19510bf",
+      "texture": "assets/background/poluicao/backgroung-poluicao-perto.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -6612,6 +6672,15 @@
       },
       {
         "objectName": "Ruby"
+      },
+      {
+        "objectName": "bg_ceu"
+      },
+      {
+        "objectName": "bg_montanha"
+      },
+      {
+        "objectName": "bg_chao"
       }
     ]
   },
@@ -15968,7 +16037,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.49138775453294187,
+        "zoomFactor": 0.14890670595874456,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -23407,6 +23476,73 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 832,
+          "keepRatio": true,
+          "layer": "background-layer",
+          "name": "bg_ceu",
+          "persistentUuid": "ead9c4c8-904d-4e0f-8265-a1429ada55ec",
+          "width": 6240,
+          "x": -1408,
+          "y": 0,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "background-layer",
+          "name": "bg_montanha",
+          "persistentUuid": "e2daf5da-a114-4123-bc0f-877355cf43ac",
+          "width": 0,
+          "x": -704,
+          "y": 1056,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 416,
+          "keepRatio": true,
+          "layer": "background-layer",
+          "name": "bg_montanha",
+          "persistentUuid": "34b608af-7043-4ed5-bcaf-2557deb97d2f",
+          "width": 6240,
+          "x": -1408,
+          "y": 320,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 768,
+          "keepRatio": true,
+          "layer": "background-layer",
+          "name": "bg_chao",
+          "persistentUuid": "230f4a89-8463-41bf-a071-4229e5d671ee",
+          "width": 6240,
+          "x": -1408,
+          "y": 384,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -23465,6 +23601,54 @@
             "includeConfig": 0
           },
           "target": "Hud"
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Parallaxing Scolling",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "bg_ceu",
+                    "=",
+                    " - (CameraX() * 0.15 + 1920)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "bg_montanha",
+                    "=",
+                    "- (CameraX() * 0.35 + 1920)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "bg_chao",
+                    "=",
+                    "- (CameraX() * 0.60 + 1920)"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         },
         {
           "colorB": 228,
@@ -23670,6 +23854,60 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
+          "name": "background-layer",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": true,
           "name": "",
           "renderingType": "",
           "visibility": true,
@@ -23734,7 +23972,7 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
+          "isLocked": true,
           "name": "HUD",
           "renderingType": "",
           "visibility": true,
@@ -23835,7 +24073,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.2705012603962572,
+        "zoomFactor": 0.1440493154925041,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -28670,6 +28908,57 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 704,
+          "keepRatio": true,
+          "layer": "Background-layer",
+          "name": "bg_ceu",
+          "persistentUuid": "0e3a356a-3512-4c10-8c92-81d48e073621",
+          "width": 6016,
+          "x": -960,
+          "y": 0,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 416,
+          "keepRatio": true,
+          "layer": "Background-layer",
+          "name": "bg_montanha",
+          "persistentUuid": "8377ac41-6ab0-401e-ad0f-f1474e0a06a3",
+          "width": 6016,
+          "x": -960,
+          "y": 384,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 800,
+          "keepRatio": true,
+          "layer": "Background-layer",
+          "name": "bg_chao",
+          "persistentUuid": "06be0a58-0b88-4067-add3-765f6b84b02f",
+          "width": 6016,
+          "x": -960,
+          "y": 448,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [],
@@ -28709,6 +28998,54 @@
             "includeConfig": 0
           },
           "target": "Hud"
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Parallaxing Scolling",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "bg_ceu",
+                    "=",
+                    " - (CameraX() * 0.15 + 1920)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "bg_montanha",
+                    "=",
+                    "- (CameraX() * 0.35 + 1920)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "bg_chao",
+                    "=",
+                    "- (CameraX() * 0.60 + 1920)"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         },
         {
           "colorB": 228,
@@ -28867,6 +29204,60 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
+          "name": "Background-layer",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": true,
           "name": "",
           "renderingType": "",
           "visibility": true,
@@ -28931,7 +29322,7 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
+          "isLocked": true,
           "name": "HUD",
           "renderingType": "",
           "visibility": true,
@@ -29032,7 +29423,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.4598521426736396,
+        "zoomFactor": 0.13935037485557009,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -29050,8 +29441,8 @@
           "name": "Personagem",
           "persistentUuid": "2309c5a8-aee6-4ed5-a93c-4deaa6734009",
           "width": 64,
-          "x": 1088,
-          "y": 864,
+          "x": 96,
+          "y": 832,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -31890,23 +32281,6 @@
           "x": 2976,
           "y": 512,
           "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 6,
-          "height": 96,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Gold_Key",
-          "persistentUuid": "d56f12c9-d216-4b28-ac4b-ab963f348f4d",
-          "width": 96,
-          "x": 3104,
-          "y": 576,
-          "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -35090,6 +35464,57 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 704,
+          "keepRatio": true,
+          "layer": "Background-layer",
+          "name": "bg_ceu",
+          "persistentUuid": "67695b4a-b756-40ce-9822-9306df15d928",
+          "width": 6784,
+          "x": -32,
+          "y": 0,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 416,
+          "keepRatio": true,
+          "layer": "Background-layer",
+          "name": "bg_montanha",
+          "persistentUuid": "bbde98be-1714-494e-950b-784e44406840",
+          "width": 6784,
+          "x": -32,
+          "y": 416,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 800,
+          "keepRatio": true,
+          "layer": "Background-layer",
+          "name": "bg_chao",
+          "persistentUuid": "0c53f0e3-0635-4677-a91d-59807d4b9653",
+          "width": 6784,
+          "x": -32,
+          "y": 480,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -35104,10 +35529,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             },
             {
@@ -35184,6 +35609,8 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -35196,9 +35623,7 @@
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 250,
-              "name": "PlatformerObject",
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "useLegacyTrajectory": false,
               "useRepeatedJump": false,
               "xGrabTolerance": 10,
@@ -35559,6 +35984,54 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "name": "Parallaxing Scolling",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "bg_ceu",
+                    "=",
+                    " - (CameraX() * 0.15 + 1920)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "bg_montanha",
+                    "=",
+                    "- (CameraX() * 0.35 + 1920)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "bg_chao",
+                    "=",
+                    "- (CameraX() * 0.60 + 1920)"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
           "name": "Colisão Gema",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -35826,6 +36299,60 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
+          "name": "Background-layer",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": true,
           "name": "",
           "renderingType": "",
           "visibility": true,
@@ -35890,7 +36417,7 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
+          "isLocked": true,
           "name": "HUD",
           "renderingType": "",
           "visibility": true,
