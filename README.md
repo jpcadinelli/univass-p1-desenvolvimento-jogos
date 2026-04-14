@@ -170,3 +170,4 @@ As fases do jogo foram planejadas para representar a progressão da degradação
 | [João Pedro Coelho Cadinelli dos Santos](https://github.com/jpcadinelli) | 202313598 | [@jpcadinelli](https://github.com/jpcadinelli) |
 | [Julio Fernando Martins Leite](https://github.com/devjuliomartins) | 202310535 | [@devjuliomartins](https://github.com/devjuliomartins) |
 | [Pedro Leal Primo Teixeira Coelho](https://github.com/pedro-coelho1604) | 202310631 | [@pedro-coelho1604](https://github.com/pedro-coelho1604) |
+| [Heloisa Coelho Cabral](https://github.com/devheloisacabral) | 202311029 | [@devheloisacabral](https://github.com/devheloisacabral) |
