@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 266,
+    "build": 261,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -85,6 +85,7 @@
     ],
     "categories": [],
     "playableDevices": [
+      "mobile",
       "mobile"
     ],
     "extensionProperties": [],
@@ -1969,6 +1970,110 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Item/4910d431c7c63bf06c08b1fbbe78c714819f0324185bcacbe6b14c7473f50c00_Rubis.png",
           "name": "Rubis.png"
         }
+      },
+      {
+        "file": "assets/personagem/heroi/hit/heroi-hit-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\personagem\\heroi\\hit\\heroi-hit-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/personagem/heroi/hit/heroi-hit-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\personagem\\heroi\\hit\\heroi-hit-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/personagem/heroi/hit/heroi-hit-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\personagem\\heroi\\hit\\heroi-hit-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/personagem/heroi/hit/heroi-hit-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\personagem\\heroi\\hit\\heroi-hit-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/personagem/heroi/hit/heroi-hit-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\personagem\\heroi\\hit\\heroi-hit-5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/personagem/heroi/hit/heroi-hit-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\personagem\\heroi\\hit\\heroi-hit-6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hit.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hit",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hit2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hit2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hit3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hit3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hit4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hit4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hit5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hit5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hit6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hit6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hit7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hit7",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -2614,11 +2719,12 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "h_sprite_0.png",
+                  "image": "Hit",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2654,7 +2760,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "h_sprite_1.png",
+                  "image": "Hit2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2690,7 +2796,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "h_sprite_2.png",
+                  "image": "Hit3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2726,7 +2832,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "h_sprite_3.png",
+                  "image": "Hit4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2762,7 +2868,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "h_sprite_4.png",
+                  "image": "Hit5",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2798,7 +2904,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "h_sprite_5.png",
+                  "image": "Hit6",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2834,7 +2940,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "h_sprite_6.png",
+                  "image": "Hit7",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -43119,23 +43225,6 @@
           "objectGroups": []
         }
       ],
-      "eventsFunctionsFolderStructure": {
-        "folderName": "__ROOT",
-        "children": [
-          {
-            "functionName": "IsInGameEdition"
-          },
-          {
-            "functionName": "FormatTime"
-          },
-          {
-            "functionName": "ToFixed"
-          },
-          {
-            "functionName": "PadStart"
-          }
-        ]
-      },
       "eventsBasedBehaviors": [],
       "eventsBasedObjects": [
         {
@@ -43149,12 +43238,9 @@
           "defaultName": "GameOverDialog",
           "description": "Display the score and let players choose what to do next.",
           "fullName": "Game over dialog",
-          "helpPath": "",
-          "iconUrl": "",
           "isInnerAreaFollowingParentSize": true,
           "isUsingLegacyInstancesRenderer": false,
           "name": "LeaderboardDialog",
-          "previewIconUrl": "",
           "objects": [
             {
               "assetStoreId": "",
@@ -45080,77 +45166,6 @@
               "objectGroups": []
             }
           ],
-          "eventsFunctionsFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "functionName": "onCreated"
-              },
-              {
-                "functionName": "doStepPostEvents"
-              },
-              {
-                "functionName": "Score"
-              },
-              {
-                "functionName": "SetScore"
-              },
-              {
-                "functionName": "BestScore"
-              },
-              {
-                "functionName": "SetBestScore"
-              },
-              {
-                "functionName": "FormatScore"
-              },
-              {
-                "functionName": "DefaultPlayerName"
-              },
-              {
-                "functionName": "SetDefaultPlayerName"
-              },
-              {
-                "functionName": "PlayerName"
-              },
-              {
-                "functionName": "IsRestartClicked"
-              },
-              {
-                "functionName": "IsNextClicked"
-              },
-              {
-                "functionName": "IsBackClicked"
-              },
-              {
-                "functionName": "IsScoreSubmitted"
-              },
-              {
-                "functionName": "LeaderboardId"
-              },
-              {
-                "functionName": "SetLeaderboardId"
-              },
-              {
-                "functionName": "Title"
-              },
-              {
-                "functionName": "SetTitle"
-              },
-              {
-                "functionName": "TweenIn"
-              },
-              {
-                "functionName": "TweenOut"
-              },
-              {
-                "functionName": "HasTweenedIn"
-              },
-              {
-                "functionName": "HasTweenedOut"
-              }
-            ]
-          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -46202,23 +46217,12 @@
           "objectGroups": []
         }
       ],
-      "eventsFunctionsFolderStructure": {
-        "folderName": "__ROOT",
-        "children": [
-          {
-            "functionName": "IsInGameEdition"
-          }
-        ]
-      },
       "eventsBasedBehaviors": [
         {
           "description": "The finite state machine used internally by the button object.",
           "fullName": "Button finite state machine",
-          "helpPath": "",
-          "iconUrl": "",
           "name": "ButtonFSM",
           "objectType": "",
-          "previewIconUrl": "",
           "private": true,
           "eventsFunctions": [
             {
@@ -47313,41 +47317,6 @@
               "objectGroups": []
             }
           ],
-          "eventsFunctionsFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "functionName": "doStepPostEvents"
-              },
-              {
-                "functionName": "onDeActivate"
-              },
-              {
-                "functionName": "ResetState"
-              },
-              {
-                "functionName": "IsIdle"
-              },
-              {
-                "functionName": "IsClicked"
-              },
-              {
-                "functionName": "IsHovered"
-              },
-              {
-                "functionName": "IsFocused"
-              },
-              {
-                "functionName": "IsPressed"
-              },
-              {
-                "functionName": "IsPressedOutside"
-              },
-              {
-                "functionName": "TouchId"
-              }
-            ]
-          },
           "propertyDescriptors": [
             {
               "value": "true",
@@ -47442,11 +47411,8 @@
         {
           "description": "Change the text style when the button is hovered.",
           "fullName": "Hover text style",
-          "helpPath": "",
-          "iconUrl": "",
           "name": "TextStyleState",
           "objectType": "TextObject::Text",
-          "previewIconUrl": "",
           "private": true,
           "eventsFunctions": [
             {
@@ -47878,20 +47844,6 @@
               "objectGroups": []
             }
           ],
-          "eventsFunctionsFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "functionName": "IsHovered"
-              },
-              {
-                "functionName": "SetIsHovered"
-              },
-              {
-                "functionName": "Color"
-              }
-            ]
-          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -47971,11 +47923,8 @@
         {
           "description": "Change the text style when the button is hovered.",
           "fullName": "Hover bitmap text style",
-          "helpPath": "",
-          "iconUrl": "",
           "name": "BitmapTextStyleState",
           "objectType": "BitmapText::BitmapTextObject",
-          "previewIconUrl": "",
           "private": true,
           "eventsFunctions": [
             {
@@ -48341,20 +48290,6 @@
               "objectGroups": []
             }
           ],
-          "eventsFunctionsFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "functionName": "IsHovered"
-              },
-              {
-                "functionName": "SetIsHovered"
-              },
-              {
-                "functionName": "Color"
-              }
-            ]
-          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -48433,12 +48368,9 @@
           "defaultName": "Button",
           "description": "Button with a label.",
           "fullName": "Labeled button",
-          "helpPath": "",
-          "iconUrl": "",
           "isInnerAreaFollowingParentSize": true,
           "isUsingLegacyInstancesRenderer": false,
           "name": "PanelSpriteButton",
-          "previewIconUrl": "",
           "objects": [
             {
               "assetStoreId": "",
@@ -50001,56 +49933,6 @@
               "objectGroups": []
             }
           ],
-          "eventsFunctionsFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "functionName": "onCreated"
-              },
-              {
-                "functionName": "onHotReloading"
-              },
-              {
-                "functionName": "doStepPostEvents"
-              },
-              {
-                "functionName": "IsIdle"
-              },
-              {
-                "functionName": "IsClicked"
-              },
-              {
-                "functionName": "IsHovered"
-              },
-              {
-                "functionName": "IsFocused"
-              },
-              {
-                "functionName": "IsPressed"
-              },
-              {
-                "functionName": "SetLabelText"
-              },
-              {
-                "functionName": "SetLabelTextOp"
-              },
-              {
-                "functionName": "LabelText"
-              },
-              {
-                "functionName": "Activate"
-              },
-              {
-                "functionName": "IsActivated"
-              },
-              {
-                "functionName": "LabelOffset"
-              },
-              {
-                "functionName": "SetLabelOffset"
-              }
-            ]
-          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -51515,18 +51397,12 @@
       "globalVariables": [],
       "sceneVariables": [],
       "eventsFunctions": [],
-      "eventsFunctionsFolderStructure": {
-        "folderName": "__ROOT"
-      },
       "eventsBasedBehaviors": [
         {
           "description": "Tween objects into position from off screen.",
           "fullName": "Tween into view",
-          "helpPath": "",
-          "iconUrl": "",
           "name": "TweenIntoView",
           "objectType": "",
-          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -52870,40 +52746,6 @@
               "objectGroups": []
             }
           ],
-          "eventsFunctionsFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "functionName": "doStepPostEvents"
-              },
-              {
-                "functionName": "OriginX"
-              },
-              {
-                "functionName": "OriginY"
-              },
-              {
-                "functionName": "TweenIn"
-              },
-              {
-                "functionName": "TweenOut"
-              },
-              {
-                "functionName": "IsTweenedIn"
-              },
-              {
-                "functionName": "IsTweenedOut"
-              },
-              {
-                "folderName": "Tween into view configuration",
-                "children": [
-                  {
-                    "functionName": "SetShouldBeDeleted"
-                  }
-                ]
-              }
-            ]
-          },
           "propertyDescriptors": [
             {
               "value": "90",
@@ -53763,14 +53605,6 @@
           "objectGroups": []
         }
       ],
-      "eventsFunctionsFolderStructure": {
-        "folderName": "__ROOT",
-        "children": [
-          {
-            "functionName": "IsInGameEdition"
-          }
-        ]
-      },
       "eventsBasedBehaviors": [],
       "eventsBasedObjects": [
         {
@@ -53784,13 +53618,10 @@
           "defaultName": "",
           "description": "A dialog box showing two options.",
           "fullName": "Two choices dialog box ",
-          "helpPath": "",
-          "iconUrl": "",
           "isInnerAreaFollowingParentSize": true,
           "isTextContainer": true,
           "isUsingLegacyInstancesRenderer": false,
           "name": "TwoChoicesDialogBox",
-          "previewIconUrl": "",
           "objects": [
             {
               "assetStoreId": "90d94b6e3a23c34948e59eaaef4679740f8ab588696d59b21e0c0c2ef106b94d",
@@ -55056,43 +54887,6 @@
               "objectGroups": []
             }
           ],
-          "eventsFunctionsFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "functionName": "onCreated"
-              },
-              {
-                "functionName": "doStepPostEvents"
-              },
-              {
-                "functionName": "onHotReloading"
-              },
-              {
-                "functionName": "IsYesClicked"
-              },
-              {
-                "functionName": "IsNoClicked"
-              },
-              {
-                "folderName": "Dialog Box configuration",
-                "children": [
-                  {
-                    "functionName": "ActiveButtonById"
-                  },
-                  {
-                    "functionName": "SetActiveButtonById"
-                  },
-                  {
-                    "functionName": "TextMessage"
-                  },
-                  {
-                    "functionName": "SetTextMessage"
-                  }
-                ]
-              }
-            ]
-          },
           "propertyDescriptors": [
             {
               "value": "Default message. Continue?",
@@ -57712,113 +57506,12 @@
           "objectGroups": []
         }
       ],
-      "eventsFunctionsFolderStructure": {
-        "folderName": "__ROOT",
-        "children": [
-          {
-            "functionName": "onFirstSceneLoaded"
-          },
-          {
-            "functionName": "onSceneLoaded"
-          },
-          {
-            "functionName": "onScenePostEvents"
-          },
-          {
-            "functionName": "AcceleratedSpeed"
-          },
-          {
-            "functionName": "TriggerPressure"
-          },
-          {
-            "functionName": "StickForce"
-          },
-          {
-            "functionName": "StickRotationValue"
-          },
-          {
-            "functionName": "StickAngle"
-          },
-          {
-            "functionName": "AxisValue"
-          },
-          {
-            "functionName": "StickForceX"
-          },
-          {
-            "functionName": "StickForceY"
-          },
-          {
-            "functionName": "C_Button_released"
-          },
-          {
-            "functionName": "IsButtonJustPressed"
-          },
-          {
-            "functionName": "LastButtonID"
-          },
-          {
-            "functionName": "C_Any_Button_pressed"
-          },
-          {
-            "functionName": "LastButtonString"
-          },
-          {
-            "functionName": "GamepadCount"
-          },
-          {
-            "functionName": "C_Button_pressed"
-          },
-          {
-            "functionName": "Deadzone"
-          },
-          {
-            "functionName": "A_Set_deadzone"
-          },
-          {
-            "functionName": "C_Axis_pushed"
-          },
-          {
-            "functionName": "ConnectedGamepadsCount"
-          },
-          {
-            "functionName": "GamepadType"
-          },
-          {
-            "functionName": "C_Controller_type"
-          },
-          {
-            "functionName": "C_Controller_X_is_connected"
-          },
-          {
-            "functionName": "A_Vibrate_controller"
-          },
-          {
-            "functionName": "A_Advanced_Vibration_Controller"
-          },
-          {
-            "functionName": "A_Change_Vibration_Magnitude"
-          },
-          {
-            "functionName": "C_any_button_released"
-          },
-          {
-            "functionName": "WeakVibrationMagnitude"
-          },
-          {
-            "functionName": "StrongVibrationMagnitude"
-          }
-        ]
-      },
       "eventsBasedBehaviors": [
         {
           "description": "Control a platformer character with a gamepad.",
           "fullName": "Platformer gamepad mapper",
-          "helpPath": "",
-          "iconUrl": "",
           "name": "PlatformerGamepadMapper",
           "objectType": "",
-          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -58302,14 +57995,6 @@
               "objectGroups": []
             }
           ],
-          "eventsFunctionsFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "functionName": "doStepPreEvents"
-              }
-            ]
-          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -58422,11 +58107,8 @@
         {
           "description": "Control a 3D physics character with a gamepad.",
           "fullName": "3D platformer gamepad mapper",
-          "helpPath": "",
-          "iconUrl": "",
           "name": "Platformer3DGamepadMapper",
           "objectType": "",
-          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -58539,14 +58221,6 @@
               "objectGroups": []
             }
           ],
-          "eventsFunctionsFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "functionName": "doStepPreEvents"
-              }
-            ]
-          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -58649,11 +58323,8 @@
         {
           "description": "Control a 3D physics character with a gamepad.",
           "fullName": "3D shooter gamepad mapper",
-          "helpPath": "",
-          "iconUrl": "",
           "name": "Shooter3DGamepadMapper",
           "objectType": "",
-          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -58755,14 +58426,6 @@
               "objectGroups": []
             }
           ],
-          "eventsFunctionsFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "functionName": "doStepPreEvents"
-              }
-            ]
-          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -58885,11 +58548,8 @@
         {
           "description": "Control camera rotations with a gamepad.",
           "fullName": "First person camera gamepad mapper",
-          "helpPath": "",
-          "iconUrl": "",
           "name": "FirstPersonGamepadMapper",
           "objectType": "",
-          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -59815,91 +59475,6 @@
               "objectGroups": []
             }
           ],
-          "eventsFunctionsFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "functionName": "doStepPreEvents"
-              },
-              {
-                "folderName": "Layers and cameras",
-                "children": [
-                  {
-                    "functionName": "LookFromObjectEyes"
-                  }
-                ]
-              },
-              {
-                "folderName": "First person camera gamepad mapper horizontal rotation configuration",
-                "children": [
-                  {
-                    "functionName": "HorizontalRotationSpeedMax"
-                  },
-                  {
-                    "functionName": "SetHorizontalRotationSpeedMax"
-                  },
-                  {
-                    "functionName": "HorizontalRotationAcceleration"
-                  },
-                  {
-                    "functionName": "SetHorizontalRotationAcceleration"
-                  },
-                  {
-                    "functionName": "HorizontalRotationDeceleration"
-                  },
-                  {
-                    "functionName": "SetHorizontalRotationDeceleration"
-                  }
-                ]
-              },
-              {
-                "folderName": "First person camera gamepad mapper vertical rotation configuration",
-                "children": [
-                  {
-                    "functionName": "VerticalRotationSpeedMax"
-                  },
-                  {
-                    "functionName": "SetVerticalRotationSpeedMax"
-                  },
-                  {
-                    "functionName": "VerticalRotationAcceleration"
-                  },
-                  {
-                    "functionName": "SetVerticalRotationAcceleration"
-                  },
-                  {
-                    "functionName": "VerticalRotationDeceleration"
-                  },
-                  {
-                    "functionName": "SetVerticalRotationDeceleration"
-                  },
-                  {
-                    "functionName": "VerticalAngleMin"
-                  },
-                  {
-                    "functionName": "SetVerticalAngleMin"
-                  },
-                  {
-                    "functionName": "VerticalAngleMax"
-                  },
-                  {
-                    "functionName": "SetVerticalAngleMax"
-                  }
-                ]
-              },
-              {
-                "folderName": "First person camera gamepad mapper position configuration",
-                "children": [
-                  {
-                    "functionName": "OffsetZ"
-                  },
-                  {
-                    "functionName": "SetOffsetZ"
-                  }
-                ]
-              }
-            ]
-          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -60084,11 +59659,8 @@
         {
           "description": "Control a 3D physics car with a gamepad.",
           "fullName": "3D car gamepad mapper",
-          "helpPath": "",
-          "iconUrl": "",
           "name": "PhysicsCar3DGamepadMapper",
           "objectType": "",
-          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -60372,14 +59944,6 @@
               "objectGroups": []
             }
           ],
-          "eventsFunctionsFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "functionName": "doStepPreEvents"
-              }
-            ]
-          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -60492,11 +60056,8 @@
         {
           "description": "Control a top-down character with a gamepad.",
           "fullName": "Top-down gamepad mapper",
-          "helpPath": "",
-          "iconUrl": "",
           "name": "TopDownGamepadMapper",
           "objectType": "",
-          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -61074,14 +60635,6 @@
               "objectGroups": []
             }
           ],
-          "eventsFunctionsFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "functionName": "doStepPreEvents"
-              }
-            ]
-          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -61209,18 +60762,12 @@
       "globalVariables": [],
       "sceneVariables": [],
       "eventsFunctions": [],
-      "eventsFunctionsFolderStructure": {
-        "folderName": "__ROOT"
-      },
       "eventsBasedBehaviors": [
         {
           "description": "Move objects on a straight line.",
           "fullName": "Linear movement",
-          "helpPath": "",
-          "iconUrl": "",
           "name": "LinearMovement",
           "objectType": "",
-          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -61424,31 +60971,6 @@
               "objectGroups": []
             }
           ],
-          "eventsFunctionsFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "functionName": "doStepPreEvents"
-              },
-              {
-                "folderName": "Linear movement",
-                "children": [
-                  {
-                    "functionName": "SpeedX"
-                  },
-                  {
-                    "functionName": "SetSpeedX"
-                  },
-                  {
-                    "functionName": "SpeedY"
-                  },
-                  {
-                    "functionName": "SetSpeedY"
-                  }
-                ]
-              }
-            ]
-          },
           "propertyDescriptors": [
             {
               "value": "0",
@@ -61480,11 +61002,8 @@
         {
           "description": "Move objects ahead according to their angle.",
           "fullName": "Linear movement by angle",
-          "helpPath": "",
-          "iconUrl": "",
           "name": "LinearMovementByAngle",
           "objectType": "",
-          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -61607,25 +61126,6 @@
               "objectGroups": []
             }
           ],
-          "eventsFunctionsFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "functionName": "doStepPreEvents"
-              },
-              {
-                "folderName": "Linear movement by angle configuration",
-                "children": [
-                  {
-                    "functionName": "Speed"
-                  },
-                  {
-                    "functionName": "SetSpeed"
-                  }
-                ]
-              }
-            ]
-          },
           "propertyDescriptors": [
             {
               "value": "200",
@@ -61686,18 +61186,12 @@
       "globalVariables": [],
       "sceneVariables": [],
       "eventsFunctions": [],
-      "eventsFunctionsFolderStructure": {
-        "folderName": "__ROOT"
-      },
       "eventsBasedBehaviors": [
         {
           "description": "Move an object (e.g. enemy) for a chosen time or distance, then flip it and start over.",
           "fullName": "Timed Back and Forth Movement",
-          "helpPath": "",
-          "iconUrl": "",
           "name": "TimedBackAndForthMirroredMovement",
           "objectType": "",
-          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -62681,14 +62175,6 @@
               "objectGroups": []
             }
           ],
-          "eventsFunctionsFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "functionName": "doStepPreEvents"
-              }
-            ]
-          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -65358,144 +64844,12 @@
           "objectGroups": []
         }
       ],
-      "eventsFunctionsFolderStructure": {
-        "folderName": "__ROOT",
-        "children": [
-          {
-            "functionName": "onFirstSceneLoaded"
-          },
-          {
-            "functionName": "DefineHelperClasses"
-          },
-          {
-            "functionName": "onSceneLoaded"
-          },
-          {
-            "functionName": "AddCubicCurve"
-          },
-          {
-            "functionName": "AddSmoothCubicCurve"
-          },
-          {
-            "functionName": "AddLine"
-          },
-          {
-            "functionName": "ClosePath"
-          },
-          {
-            "functionName": "CreatePathFromSvg"
-          },
-          {
-            "functionName": "ToSvg"
-          },
-          {
-            "functionName": "DeletePath"
-          },
-          {
-            "functionName": "AppendPath"
-          },
-          {
-            "functionName": "DuplicatedPath"
-          },
-          {
-            "functionName": "AppendRotatedPath"
-          },
-          {
-            "folderName": "Path transformation",
-            "children": [
-              {
-                "functionName": "SpeedScaleY"
-              },
-              {
-                "functionName": "SetSpeedScaleY"
-              },
-              {
-                "functionName": "InvertPath"
-              },
-              {
-                "functionName": "FlipPath"
-              },
-              {
-                "functionName": "FlipPathX"
-              },
-              {
-                "functionName": "FlipPathY"
-              },
-              {
-                "functionName": "ScalePath"
-              },
-              {
-                "functionName": "RotatePath"
-              }
-            ]
-          },
-          {
-            "functionName": "IsClosed"
-          },
-          {
-            "functionName": "PathX"
-          },
-          {
-            "functionName": "PathY"
-          },
-          {
-            "functionName": "PathAngle"
-          },
-          {
-            "functionName": "PathLength"
-          },
-          {
-            "functionName": "PathEndX"
-          },
-          {
-            "functionName": "PathEndY"
-          },
-          {
-            "folderName": "Path element",
-            "children": [
-              {
-                "functionName": "ElementCount"
-              },
-              {
-                "functionName": "OriginX"
-              },
-              {
-                "functionName": "OriginY"
-              },
-              {
-                "functionName": "FirstControlX"
-              },
-              {
-                "functionName": "FirstControlY"
-              },
-              {
-                "functionName": "SecondControlX"
-              },
-              {
-                "functionName": "SecondControlY"
-              },
-              {
-                "functionName": "TargetX"
-              },
-              {
-                "functionName": "TargetY"
-              }
-            ]
-          },
-          {
-            "functionName": "PathExists"
-          }
-        ]
-      },
       "eventsBasedBehaviors": [
         {
           "description": "Move objects on curved paths in a given duration and tween easing function.",
           "fullName": "Movement on a curve (duration-based)",
-          "helpPath": "",
-          "iconUrl": "",
           "name": "TweenPathMovement",
           "objectType": "",
-          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -67725,76 +67079,6 @@
               "objectGroups": []
             }
           ],
-          "eventsFunctionsFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "functionName": "doStepPreEvents"
-              },
-              {
-                "functionName": "UpdatePosition"
-              },
-              {
-                "functionName": "MoveTo"
-              },
-              {
-                "functionName": "MoveToAndGoBack"
-              },
-              {
-                "functionName": "Move"
-              },
-              {
-                "functionName": "MoveAndGoBack"
-              },
-              {
-                "functionName": "HasReachedAnEnd"
-              },
-              {
-                "functionName": "HasFinishedToMove"
-              },
-              {
-                "functionName": "MovementAngle"
-              },
-              {
-                "folderName": "Debug",
-                "children": [
-                  {
-                    "functionName": "DrawDebug"
-                  }
-                ]
-              },
-              {
-                "functionName": "SetTransformation"
-              },
-              {
-                "functionName": "InitializeMovement"
-              },
-              {
-                "functionName": "RepetitionDone"
-              },
-              {
-                "functionName": "RepeatedPathPosition"
-              },
-              {
-                "functionName": "Progress"
-              },
-              {
-                "functionName": "PathLength"
-              },
-              {
-                "functionName": "PathEndX"
-              },
-              {
-                "functionName": "PathEndY"
-              },
-              {
-                "functionName": "PathSpeedScaleY"
-              },
-              {
-                "functionName": "BackOrForthAngle"
-              }
-            ]
-          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -68095,11 +67379,8 @@
         {
           "description": "Move objects on curved paths at a given speed.",
           "fullName": "Movement on a curve (speed-based)",
-          "helpPath": "",
-          "iconUrl": "",
           "name": "SpeedPathMovement",
           "objectType": "",
-          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -70684,117 +69965,6 @@
               "objectGroups": []
             }
           ],
-          "eventsFunctionsFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "functionName": "doStepPreEvents"
-              },
-              {
-                "functionName": "SetPath"
-              },
-              {
-                "functionName": "SetPathTo"
-              },
-              {
-                "functionName": "PositionOnLoop"
-              },
-              {
-                "functionName": "Loop"
-              },
-              {
-                "functionName": "PositionOnPath"
-              },
-              {
-                "functionName": "SetPositionOnPath"
-              },
-              {
-                "functionName": "UpdatePosition"
-              },
-              {
-                "functionName": "CheckPositionOnPath"
-              },
-              {
-                "functionName": "HasReachedOrigin"
-              },
-              {
-                "functionName": "HasReachedTarget"
-              },
-              {
-                "functionName": "HasReachedAnEnd"
-              },
-              {
-                "functionName": "CanMoveFurther"
-              },
-              {
-                "functionName": "MovementAngle"
-              },
-              {
-                "functionName": "Speed"
-              },
-              {
-                "functionName": "SetSpeed"
-              },
-              {
-                "functionName": "AccelarateAt"
-              },
-              {
-                "functionName": "AccelarateDuring"
-              },
-              {
-                "folderName": "Debug",
-                "children": [
-                  {
-                    "functionName": "DrawDebug"
-                  }
-                ]
-              },
-              {
-                "functionName": "SetTransformation"
-              },
-              {
-                "functionName": "InitializeMovement"
-              },
-              {
-                "functionName": "RepeatedPathPosition"
-              },
-              {
-                "functionName": "RepetitionDone"
-              },
-              {
-                "functionName": "Progress"
-              },
-              {
-                "functionName": "PathLength"
-              },
-              {
-                "functionName": "TotalLength"
-              },
-              {
-                "functionName": "PathEndX"
-              },
-              {
-                "functionName": "PathEndY"
-              },
-              {
-                "functionName": "PathSpeedScaleY"
-              },
-              {
-                "functionName": "BackOrForthAngle"
-              },
-              {
-                "folderName": "Movement on a curve (speed-based) configuration",
-                "children": [
-                  {
-                    "functionName": "PathOriginX"
-                  },
-                  {
-                    "functionName": "PathOriginY"
-                  }
-                ]
-              }
-            ]
-          },
           "propertyDescriptors": [
             {
               "value": "true",
